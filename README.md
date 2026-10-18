@@ -36,16 +36,81 @@ The dictionary is locked at a fixed corpus size of **exactly 4,800 words**. To m
 
 2. **Word Worthiness & Replacement Criteria**:
    Words are replaced *only when strictly required*. An existing entry is flagged for replacement only if it is:
-   * A direct English loanword with standard indigenous Hindi equivalents (e.g., *बुक $\to$ समाचारपत्र*, *कप $\to$ प्याला*).
+   * A direct English loanword with standard indigenous Hindi equivalents (e.g., *बुक $\to$ समाचारपत्र*, *कप $\to$ प्याला*, *स्कूल $\to$ पाठशाला*).
    * A bound grammatical prefix or suffix fragment that cannot stand alone (e.g., *बद-*, *महा-*).
    * An inflected case form, oblique variation, or bare verb root (e.g., *तोड़ा $\to$ तोड़ना*, *चल $\to$ चलना*).
    * An obscure foreign poetic fossil or non-lexical interjection (e.g., *ख़्वुरशेद*, *रूद*, *धत*).
    * A phonological or spelling duplicate of an existing headword (e.g., *सिंघ vs सिंह*, *सैकंड vs सेकंड*).
    
-   **Replacement Standard**: Replaced words are substituted exclusively with words that are **popular, frequently used, standard, and worthy to learn** (e.g., *अतिथि*, *सत्कार*, *यज्ञ*, *संतान*, *नवाचार*, *सद्भाव*, *स्वावलंबन*).
+   **Replacement Standard**: Replaced words are substituted exclusively with words that are **popular, frequently used, standard, and worthy to learn** (e.g., *अतिथि*, *सत्कार*, *यज्ञ*, *संतान*, *नवाचार*, *सद्भाव*, *स्वावलंबन*, *सत्याग्रह*, *देशभक्ति*).
 
 3. **Rigorous Single-Word English Meaning Verification**:
-   Every translation is verified to ensure that the single English word conveys the exact, primary, and natural meaning of the Hindi lemma without ambiguity, eliminating dictionary parsing truncations (e.g., correcting *तुलना* from `"be"` $\to$ `"comparison"`, *मैल* from `"dead"` $\to$ `"dirt"`, *खिलना* from `"flower"` $\to$ `"bloom"`).
+   Every translation is verified to ensure that the single English word conveys the exact, primary, and natural meaning of the Hindi lemma without ambiguity, eliminating dictionary parsing truncations (e.g., correcting *तुलना* from `"be"` $\to$ `"comparison"`, *मैल* from `"dead"` $\to$ `"dirt"`, *खिलना* from `"flower"` $\to$ `"bloom"`, *शक* from `"saka"` $\to$ `"doubt"`, *नस* from `"blood"` $\to$ `"vein"`, *मठ* from `"pagoda"` $\to$ `"monastery"`).
+
+---
+
+## Pedagogical Tiers (Multiples of 600)
+
+To take a learner progressively from **Absolute Beginner (A1) to Native-Proficient / Wildcard (C2+)** exclusively with these 4,800 words, the corpus is structured into **8 standardized tiers of exactly 600 words each**:
+
+| Tier | Rank Range (`id`) | CEFR Level | Pedagogical Domain & Lexical Scope |
+|:---:|:---:|:---:|:---|
+| **Tier 1** | `1` – `600` | **A1** (Absolute Beginner) | Foundational daily grammar, core pronouns, essential auxiliary & action verbs, immediate family, numbers, basic time. |
+| **Tier 2** | `601` – `1200` | **A2** (Elementary) | Household nouns, food & culinary terms, domestic items, common adjectives, weather, spatial relations & directions. |
+| **Tier 3** | `1201` – `1800` | **B1** (Threshold Intermediate) | Social conversations, travel, commerce, routine professions, feelings, bodily health, common community interactions. |
+| **Tier 4** | `1801` – `2400` | **B1+** (Intermediate Working) | Workplace collaboration, administrative interactions, abstract emotions, agriculture, environment, cultural festivities. |
+| **Tier 5** | `2401` – `3000` | **B2** (Vantage / Functional) | Public institutions, civic rights & duties, legal & political terminology, journalism, media discourse, social debates. |
+| **Tier 6** | `3001` – `3600` | **C1** (Advanced / Academic) | Formal literature, academic essays, philosophical concepts, fine arts, scientific methodology, rhetoric & persuasion. |
+| **Tier 7** | `3601` – `4200` | **C1+** (Proficient Classical) | Classical Tatsam vocabulary, formal statecraft, ethical treaties, nuanced mental states, historical & architectural prose. |
+| **Tier 8** | `4201` – `4800` | **C2 / Wildcard** (Expert Mastery) | Advanced poetic expressions, subtle stylistic doublets, evocative cultural idioms, literary wildcard terms. |
+
+### Complete Sweep Batch Schedule (Batches 1 to 24)
+
+Every single entry in the corpus is audited from all linguistic and pedagogical angles across 24 sequential batches (200 headwords per batch, 3 batches per 600-word tier):
+
+| Tier | Batch # | ID Range | Tier Focus & Pedagogical Scope |
+|:---:|:---:|:---:|:---|
+| **Tier 1 (A1: 1–600)** | **Batch 1** | `1` – `200` | Foundational auxiliaries, core postpositions, basic subject pronouns, high-frequency verbs. |
+| | **Batch 2** | `201` – `400` | Common sensory & action verbs, basic numerals, fundamental household objects. |
+| | **Batch 3** | `401` – `600` | Kinship foundations, daily activities, physical descriptors, basic emotions. |
+| **Tier 2 (A2: 601–1200)** | **Batch 4** | `601` – `800` | Food & culinary vocabulary, dining, domestic terms, directions, cardinal orientation. |
+| | **Batch 5** | `801` – `1000` | Cardinal numbers, fractions (`डेढ़`, `ढाई`), nature, time units, common adjectives. |
+| | **Batch 6** | `1001` – `1200` | Domestic actions, cooking processes, clothing, physical body, animal kingdom. |
+| **Tier 3 (B1: 1201–1800)** | **Batch 7** | `1201` – `1400` | Workplace trades, market commerce, travel terms, transportation, calendar units. |
+| | **Batch 8** | `1401` – `1600` | Emotional states, social etiquette, mental operations, disambiguating truncations (e.g. *शक*). |
+| | **Batch 9** | `1601` – `1800` | Material culture, civic interactions, physical health, personality attributes. |
+| **Tier 4 (B1+: 1801–2400)** | **Batch 10** | `1801` – `2000` | Workplace collaboration, community life, abstract sentiments, societal relationships. |
+| | **Batch 11** | `2001` – `2200` | Agricultural goods, natural environment, weather phenomena, psychological qualities. |
+| | **Batch 12** | `2201` – `2400` | Institutional procedures, social rituals, physical sciences, traditional crafts. |
+| **Tier 5 (B2: 2401–3000)** | **Batch 13** | `2401` – `2600` | Governance mechanisms, public rights, administrative terms, legal terminology. |
+| | **Batch 14** | `2601` – `2800` | Moral philosophy, social ethics, character evaluation, interpersonal virtues. |
+| | **Batch 15** | `2801` – `3000` | Cultural institutions, religious architecture (*मठ*), philosophical contemplation. |
+| **Tier 6 (C1: 3001–3600)** | **Batch 16** | `3001` – `3200` | Academic prose, literary registers, scientific principles, persuasive rhetoric. |
+| | **Batch 17** | `3201` – `3400` | Classical statecraft, administrative governance, classical debate vocabulary. |
+| | **Batch 18** | `3401` – `3600` | Nuanced psychological inquiry, intellectual discourse, high aesthetic terms. |
+| **Tier 7 (C1+: 3601–4200)** | **Batch 19** | `3601` – `3800` | High Tatsam formal lexicon, legal treatises, architectural & historical terminology. |
+| | **Batch 20** | `3801` – `4000` | Classical philosophy, ethical virtues, anatomical accuracy (*नस*), spiritual concepts. |
+| | **Batch 21** | `4001` – `4200` | Elevated stylistic prose, scholarly literature, high cultural descriptors. |
+| **Tier 8 (C2: 4201–4800)** | **Batch 22** | `4201` – `4400` | Perso-Arabic poetic loan heritage, sophisticated metaphors, rare classical synonyms. |
+| | **Batch 23** | `4401` – `4600` | Evocative literary idioms, philosophical distinctions, nuanced emotional registers. |
+| | **Batch 24** | `4601` – `4800` | Wildcard mastery lexicon, ultimate native-level gems, terminal 200 foundational words. |
+
+---
+
+## Corpus Worthiness Score (Scale of 100)
+
+A continuous quantitative metric tracks corpus health across complete auditing sweeps:
+
+$$\text{Worthiness Score} = S_{\text{inv}} + S_{\text{fidelity}} + S_{\text{distinct}} + S_{\text{utility}} + S_{\text{ortho}}$$
+
+| Sub-Score Component | Max Weight | Evaluation Criteria |
+|:---|:---:|:---|
+| **1. Invariant Integrity ($S_{\text{inv}}$)** | **20 pts** | Exactly 4,800 sequential entries (`1`–`4800`), 0 gaps, 0 nulls, 0 duplicate Hindi headwords. |
+| **2. Semantic Fidelity ($S_{\text{fidelity}}$)** | **25 pts** | Exact single-word English gloss fidelity; 0 multi-word truncations (e.g., no `"clarified"` for *घी* or `"saka"` for *शक*). |
+| **3. Polysemic Precision ($S_{\text{distinct}}$)** | **20 pts** | Minimization of ambiguous one-to-many English collapses (differentiating kinship terms, title distinctions, and verb shades). |
+| **4. Lexical Utility & Worthiness ($S_{\text{utility}}$)** | **20 pts** | 0 unneeded English loanwords with standard indigenous terms; 0 bare verb roots; 100% culturally authentic terms. |
+| **5. Standard Orthography ($S_{\text{ortho}}$)** | **15 pts** | Clean Devanagari forms; 0 hyphenated compounds; 0 non-standard phonological/spelling doublets. |
+| **TOTAL SCORE** | **100 pts** | **Target: $\ge 98.0 / 100$ across all 8 tiers** |
 
 ---
 
