@@ -1,0 +1,1825 @@
+{
+  "nuqta_merges": [
+    {
+      "primary": {
+        "id": 52,
+        "hi": "काग़ज़",
+        "en": "paper (n.)",
+        "freq": 1910
+      },
+      "others": [
+        {
+          "id": 686,
+          "hi": "कागज",
+          "en": "paper (n.)",
+          "freq": 135
+        },
+        {
+          "id": 712,
+          "hi": "कागज़",
+          "en": "paper (n.)",
+          "freq": 135
+        }
+      ],
+      "norm": "कागज"
+    },
+    {
+      "primary": {
+        "id": 4203,
+        "hi": "फ़िर",
+        "en": "then, afterwards; so / again (adv.)",
+        "freq": 8
+      },
+      "others": [
+        {
+          "id": 75,
+          "hi": "फिर",
+          "en": "then, afterwards; so / again (adv.)",
+          "freq": 1312
+        }
+      ],
+      "norm": "फिर"
+    },
+    {
+      "primary": {
+        "id": 1940,
+        "hi": "सिर्फ़",
+        "en": "only / merely (adv.)",
+        "freq": 38
+      },
+      "others": [
+        {
+          "id": 106,
+          "hi": "सिर्फ",
+          "en": "only / merely (adv.)",
+          "freq": 941
+        }
+      ],
+      "norm": "सिर्फ"
+    },
+    {
+      "primary": {
+        "id": 3353,
+        "hi": "ख़ुद",
+        "en": "oneself / self (pron./adv.)",
+        "freq": 12
+      },
+      "others": [
+        {
+          "id": 205,
+          "hi": "खुद",
+          "en": "oneself / self (pron./adv.)",
+          "freq": 384
+        }
+      ],
+      "norm": "खुद"
+    },
+    {
+      "primary": {
+        "id": 360,
+        "hi": "माफ़",
+        "en": "forgiven, pardoned (adj.)",
+        "freq": 183
+      },
+      "others": [
+        {
+          "id": 268,
+          "hi": "माफ",
+          "en": "forgiven / excused / pardon (n.)",
+          "freq": 250
+        }
+      ],
+      "norm": "माफ"
+    },
+    {
+      "primary": {
+        "id": 4373,
+        "hi": "बीच़",
+        "en": "middle, centre (n.)",
+        "freq": 7
+      },
+      "others": [
+        {
+          "id": 270,
+          "hi": "बीच",
+          "en": "middle, centre (n.)",
+          "freq": 248
+        }
+      ],
+      "norm": "बीच"
+    },
+    {
+      "primary": {
+        "id": 453,
+        "hi": "ख़ून",
+        "en": "blood (n.)",
+        "freq": 165
+      },
+      "others": [
+        {
+          "id": 431,
+          "hi": "खून",
+          "en": "blood (n.)",
+          "freq": 165
+        }
+      ],
+      "norm": "खून"
+    },
+    {
+      "primary": {
+        "id": 454,
+        "hi": "दिमाग़",
+        "en": "brain / mind (n.)",
+        "freq": 165
+      },
+      "others": [
+        {
+          "id": 432,
+          "hi": "दिमाग",
+          "en": "brain / mind (n.)",
+          "freq": 165
+        }
+      ],
+      "norm": "दिमाग"
+    },
+    {
+      "primary": {
+        "id": 445,
+        "hi": "हज़ार",
+        "en": "thousand (num.)",
+        "freq": 165
+      },
+      "others": [
+        {
+          "id": 440,
+          "hi": "हजार",
+          "en": "thousand (num.)",
+          "freq": 165
+        }
+      ],
+      "norm": "हजार"
+    },
+    {
+      "primary": {
+        "id": 491,
+        "hi": "दरवाज़ा",
+        "en": "door (n.)",
+        "freq": 160
+      },
+      "others": [
+        {
+          "id": 463,
+          "hi": "दरवाजा",
+          "en": "door (n.)",
+          "freq": 160
+        }
+      ],
+      "norm": "दरवाजा"
+    },
+    {
+      "primary": {
+        "id": 496,
+        "hi": "ज़मीन",
+        "en": "ground / land (n.)",
+        "freq": 160
+      },
+      "others": [
+        {
+          "id": 469,
+          "hi": "जमीन",
+          "en": "ground / land (n.)",
+          "freq": 160
+        }
+      ],
+      "norm": "जमीन"
+    },
+    {
+      "primary": {
+        "id": 5607,
+        "hi": "फ़ूल",
+        "en": "flower / blossom (n.)",
+        "freq": 3
+      },
+      "others": [
+        {
+          "id": 480,
+          "hi": "फूल",
+          "en": "flower (n.)",
+          "freq": 160
+        }
+      ],
+      "norm": "फूल"
+    },
+    {
+      "primary": {
+        "id": 3155,
+        "hi": "ख़त्म",
+        "en": "completed, finished (adj.)",
+        "freq": 15
+      },
+      "others": [
+        {
+          "id": 501,
+          "hi": "खत्म",
+          "en": "finished / ended / over (adj.)",
+          "freq": 160
+        }
+      ],
+      "norm": "खत्म"
+    },
+    {
+      "primary": {
+        "id": 531,
+        "hi": "बाज़ार",
+        "en": "market / bazaar (n.)",
+        "freq": 155
+      },
+      "others": [
+        {
+          "id": 512,
+          "hi": "बाजार",
+          "en": "market / bazaar (n.)",
+          "freq": 155
+        }
+      ],
+      "norm": "बाजार"
+    },
+    {
+      "primary": {
+        "id": 534,
+        "hi": "ख़रीदना",
+        "en": "to buy / purchase (v.)",
+        "freq": 155
+      },
+      "others": [
+        {
+          "id": 528,
+          "hi": "खरीदना",
+          "en": "to buy / purchase (v.)",
+          "freq": 155
+        }
+      ],
+      "norm": "खरीदना"
+    },
+    {
+      "primary": {
+        "id": 532,
+        "hi": "पकड़ना",
+        "en": "to catch / hold (v.)",
+        "freq": 155
+      },
+      "others": [
+        {
+          "id": 1746,
+          "hi": "पकडना",
+          "en": "to catch / to hold / to seize (v.)",
+          "freq": 50
+        }
+      ],
+      "norm": "पकडना"
+    },
+    {
+      "primary": {
+        "id": 579,
+        "hi": "क़ानून",
+        "en": "law / statute (n.)",
+        "freq": 150
+      },
+      "others": [
+        {
+          "id": 554,
+          "hi": "कानून",
+          "en": "law / statute (n.)",
+          "freq": 150
+        }
+      ],
+      "norm": "कानून"
+    },
+    {
+      "primary": {
+        "id": 4709,
+        "hi": "ढूँढ़ना",
+        "en": "seek, search for, look for; to find / to explore; to investigate / to find out; to figure out (v.)",
+        "freq": 6
+      },
+      "others": [
+        {
+          "id": 581,
+          "hi": "ढूँढना",
+          "en": "to search / seek (v.)",
+          "freq": 150
+        }
+      ],
+      "norm": "ढूँढना"
+    },
+    {
+      "primary": {
+        "id": 2693,
+        "hi": "मज़ाक",
+        "en": "joke / mockery / prank / jest (n.)",
+        "freq": 20
+      },
+      "others": [
+        {
+          "id": 583,
+          "hi": "मजाक",
+          "en": "joke / jest / fun (n.)",
+          "freq": 150
+        },
+        {
+          "id": 4968,
+          "hi": "मज़ाक़",
+          "en": "fun, joke (n.)",
+          "freq": 5
+        }
+      ],
+      "norm": "मजाक"
+    },
+    {
+      "primary": {
+        "id": 614,
+        "hi": "सफ़ेद",
+        "en": "white (adj.)",
+        "freq": 145
+      },
+      "others": [
+        {
+          "id": 607,
+          "hi": "सफेद",
+          "en": "white (adj.)",
+          "freq": 145
+        }
+      ],
+      "norm": "सफेद"
+    },
+    {
+      "primary": {
+        "id": 621,
+        "hi": "आज़ादी",
+        "en": "freedom / independence (n.)",
+        "freq": 145
+      },
+      "others": [
+        {
+          "id": 617,
+          "hi": "आजादी",
+          "en": "freedom / independence (n.)",
+          "freq": 145
+        }
+      ],
+      "norm": "आजादी"
+    },
+    {
+      "primary": {
+        "id": 654,
+        "hi": "बर्फ़",
+        "en": "snow / ice (n.)",
+        "freq": 140
+      },
+      "others": [
+        {
+          "id": 642,
+          "hi": "बर्फ",
+          "en": "snow / ice (n.)",
+          "freq": 140
+        }
+      ],
+      "norm": "बर्फ"
+    },
+    {
+      "primary": {
+        "id": 665,
+        "hi": "प्याज़",
+        "en": "onion (n.)",
+        "freq": 140
+      },
+      "others": [
+        {
+          "id": 656,
+          "hi": "प्याज",
+          "en": "onion (n.)",
+          "freq": 140
+        }
+      ],
+      "norm": "प्याज"
+    },
+    {
+      "primary": {
+        "id": 4118,
+        "hi": "कमज़ोर",
+        "en": "weak, feeble (adj.)",
+        "freq": 9
+      },
+      "others": [
+        {
+          "id": 673,
+          "hi": "कमजोर",
+          "en": "weak / feeble (adj.)",
+          "freq": 140
+        }
+      ],
+      "norm": "कमजोर"
+    },
+    {
+      "primary": {
+        "id": 760,
+        "hi": "तूफ़ान",
+        "en": "storm / tempest (n.)",
+        "freq": 130
+      },
+      "others": [
+        {
+          "id": 739,
+          "hi": "तूफान",
+          "en": "storm / tempest (n.)",
+          "freq": 130
+        }
+      ],
+      "norm": "तूफान"
+    },
+    {
+      "primary": {
+        "id": 5093,
+        "hi": "क़लम",
+        "en": "pen; reed pen / reed / cuttings (n.)",
+        "freq": 4
+      },
+      "others": [
+        {
+          "id": 756,
+          "hi": "कलम",
+          "en": "pen (n.)",
+          "freq": 130
+        }
+      ],
+      "norm": "कलम"
+    },
+    {
+      "primary": {
+        "id": 813,
+        "hi": "मेज़",
+        "en": "table (n.)",
+        "freq": 125
+      },
+      "others": [
+        {
+          "id": 786,
+          "hi": "मेज",
+          "en": "table (n.)",
+          "freq": 125
+        }
+      ],
+      "norm": "मेज"
+    },
+    {
+      "primary": {
+        "id": 816,
+        "hi": "क़र्ज़",
+        "en": "debt / loan (n.)",
+        "freq": 125
+      },
+      "others": [
+        {
+          "id": 793,
+          "hi": "कर्ज",
+          "en": "debt / loan (n.)",
+          "freq": 125
+        }
+      ],
+      "norm": "कर्ज"
+    },
+    {
+      "primary": {
+        "id": 3501,
+        "hi": "फ़र्श",
+        "en": "floor / carpet, rug (n.)",
+        "freq": 12
+      },
+      "others": [
+        {
+          "id": 928,
+          "hi": "फर्श",
+          "en": "floor (n.)",
+          "freq": 110
+        }
+      ],
+      "norm": "फर्श"
+    },
+    {
+      "primary": {
+        "id": 1065,
+        "hi": "मज़दूर",
+        "en": "laborer / worker (n.)",
+        "freq": 95
+      },
+      "others": [
+        {
+          "id": 1066,
+          "hi": "मजदूर",
+          "en": "laborer / worker (n.)",
+          "freq": 95
+        }
+      ],
+      "norm": "मजदूर"
+    },
+    {
+      "primary": {
+        "id": 1071,
+        "hi": "सफ़र",
+        "en": "journey / travel (n.)",
+        "freq": 95
+      },
+      "others": [
+        {
+          "id": 1072,
+          "hi": "सफर",
+          "en": "journey / travel (n.)",
+          "freq": 95
+        }
+      ],
+      "norm": "सफर"
+    },
+    {
+      "primary": {
+        "id": 1088,
+        "hi": "ज़रूर",
+        "en": "surely / certainly (adv.)",
+        "freq": 90
+      },
+      "others": [
+        {
+          "id": 2104,
+          "hi": "जरूर",
+          "en": "surely / certainly (adv.)",
+          "freq": 32
+        }
+      ],
+      "norm": "जरूर"
+    },
+    {
+      "primary": {
+        "id": 5091,
+        "hi": "लायक़",
+        "en": "fit, fitting, suitable / able, worthy (adj.)",
+        "freq": 4
+      },
+      "others": [
+        {
+          "id": 1130,
+          "hi": "लायक",
+          "en": "bringing / yielding / procuring (adj.)",
+          "freq": 87
+        }
+      ],
+      "norm": "लायक"
+    },
+    {
+      "primary": {
+        "id": 2146,
+        "hi": "तेज़",
+        "en": "sharp / fast, brisk, clever, acrid, strong (adj.)",
+        "freq": 31
+      },
+      "others": [
+        {
+          "id": 1156,
+          "hi": "तेज",
+          "en": "spirit, vigour, life / lustre, sheen (n.)",
+          "freq": 85
+        }
+      ],
+      "norm": "तेज"
+    },
+    {
+      "primary": {
+        "id": 2555,
+        "hi": "तराज़ू",
+        "en": "balance, scales (n.)",
+        "freq": 20
+      },
+      "others": [
+        {
+          "id": 1242,
+          "hi": "तराजू",
+          "en": "weighing scale / balance (n.)",
+          "freq": 80
+        }
+      ],
+      "norm": "तराजू"
+    },
+    {
+      "primary": {
+        "id": 5403,
+        "hi": "मेंढ़क",
+        "en": "frog (n.)",
+        "freq": 3
+      },
+      "others": [
+        {
+          "id": 1259,
+          "hi": "मेंढक",
+          "en": "frog (n.)",
+          "freq": 80
+        }
+      ],
+      "norm": "मेंढक"
+    },
+    {
+      "primary": {
+        "id": 2563,
+        "hi": "ख़ूबसूरत",
+        "en": "beautiful (adj.)",
+        "freq": 20
+      },
+      "others": [
+        {
+          "id": 1351,
+          "hi": "खूबसूरत",
+          "en": "beautiful / charming / handsome (n.)",
+          "freq": 73
+        }
+      ],
+      "norm": "खूबसूरत"
+    },
+    {
+      "primary": {
+        "id": 1395,
+        "hi": "रज़ाई",
+        "en": "quilt / duvet (n.)",
+        "freq": 70
+      },
+      "others": [
+        {
+          "id": 1396,
+          "hi": "रजाई",
+          "en": "quilt / duvet (n.)",
+          "freq": 70
+        }
+      ],
+      "norm": "रजाई"
+    },
+    {
+      "primary": {
+        "id": 3239,
+        "hi": "दस्तावेज़",
+        "en": "document, paper (n.)",
+        "freq": 14
+      },
+      "others": [
+        {
+          "id": 1435,
+          "hi": "दस्तावेज",
+          "en": "document / papers (n.)",
+          "freq": 65
+        }
+      ],
+      "norm": "दस्तावेज"
+    },
+    {
+      "primary": {
+        "id": 2943,
+        "hi": "फ़र्क",
+        "en": "difference, distinction / separation / different (adj., n.)",
+        "freq": 16
+      },
+      "others": [
+        {
+          "id": 1465,
+          "hi": "फर्क",
+          "en": "difference, distinction / separation / different (adj., n.)",
+          "freq": 64
+        }
+      ],
+      "norm": "फर्क"
+    },
+    {
+      "primary": {
+        "id": 5759,
+        "hi": "विस्फ़ोट",
+        "en": "explosion, blast (n.)",
+        "freq": 2
+      },
+      "others": [
+        {
+          "id": 1479,
+          "hi": "विस्फोट",
+          "en": "explosion, blast (n.)",
+          "freq": 62
+        }
+      ],
+      "norm": "विस्फोट"
+    },
+    {
+      "primary": {
+        "id": 2622,
+        "hi": "क्षेत्रफ़ल",
+        "en": "area (n.)",
+        "freq": 20
+      },
+      "others": [
+        {
+          "id": 1573,
+          "hi": "क्षेत्रफल",
+          "en": "area [measurement] (n.)",
+          "freq": 55
+        }
+      ],
+      "norm": "क्षेत्रफल"
+    },
+    {
+      "primary": {
+        "id": 1956,
+        "hi": "ज़रा",
+        "en": "a little, a small amount of / a little, slightly, just / kindly, would you?, please; used to make a polite request (adv., det)",
+        "freq": 38
+      },
+      "others": [
+        {
+          "id": 1620,
+          "hi": "जरा",
+          "en": "infirmity / senility / decrepitude (det, n.)",
+          "freq": 53
+        }
+      ],
+      "norm": "जरा"
+    },
+    {
+      "primary": {
+        "id": 4977,
+        "hi": "मुलाक़ात",
+        "en": "meeting, visit / encounter (n.)",
+        "freq": 5
+      },
+      "others": [
+        {
+          "id": 1686,
+          "hi": "मुलाकात",
+          "en": "meeting / encounter (n.)",
+          "freq": 50
+        }
+      ],
+      "norm": "मुलाकात"
+    },
+    {
+      "primary": {
+        "id": 5628,
+        "hi": "ढ़ंग",
+        "en": "mode, manner, way / style, fashion (n.)",
+        "freq": 3
+      },
+      "others": [
+        {
+          "id": 1911,
+          "hi": "ढंग",
+          "en": "mode, manner, way / style, fashion (n.)",
+          "freq": 40
+        }
+      ],
+      "norm": "ढंग"
+    },
+    {
+      "primary": {
+        "id": 3752,
+        "hi": "सज़ा",
+        "en": "punishment, penalty / chastisement / retribution, revenge (n.)",
+        "freq": 11
+      },
+      "others": [
+        {
+          "id": 1913,
+          "hi": "सजा",
+          "en": "punished / decorated / adorned (n.)",
+          "freq": 40
+        }
+      ],
+      "norm": "सजा"
+    },
+    {
+      "primary": {
+        "id": 1993,
+        "hi": "ज़िंदगी",
+        "en": "life (as in the state of being alive) (n.)",
+        "freq": 36
+      },
+      "others": [
+        {
+          "id": 2058,
+          "hi": "जिंदगी",
+          "en": "life / existence (n.)",
+          "freq": 35
+        }
+      ],
+      "norm": "जिंदगी"
+    },
+    {
+      "primary": {
+        "id": 2018,
+        "hi": "क़ब्रिस्तान",
+        "en": "cemetery / graveyard (n.)",
+        "freq": 35
+      },
+      "others": [
+        {
+          "id": 3656,
+          "hi": "कब्रिस्तान",
+          "en": "graveyard / cemetery / burial ground (n.)",
+          "freq": 12
+        }
+      ],
+      "norm": "कब्रिस्तान"
+    },
+    {
+      "primary": {
+        "id": 5745,
+        "hi": "दफ़न",
+        "en": "burial, burying / covering (n.)",
+        "freq": 3
+      },
+      "others": [
+        {
+          "id": 2059,
+          "hi": "दफन",
+          "en": "buried / interred (n.)",
+          "freq": 35
+        }
+      ],
+      "norm": "दफन"
+    },
+    {
+      "primary": {
+        "id": 3240,
+        "hi": "ज़ाहिर",
+        "en": "clear, apparent (adj.)",
+        "freq": 14
+      },
+      "others": [
+        {
+          "id": 2076,
+          "hi": "जाहिर",
+          "en": "evident / apparent / obvious (n.)",
+          "freq": 34
+        }
+      ],
+      "norm": "जाहिर"
+    },
+    {
+      "primary": {
+        "id": 2808,
+        "hi": "मज़ेदार",
+        "en": "fun / pleasant / tasty (adj.)",
+        "freq": 18
+      },
+      "others": [
+        {
+          "id": 2101,
+          "hi": "मजेदार",
+          "en": "enjoyable / amusing / tasty / witty (n.)",
+          "freq": 33
+        }
+      ],
+      "norm": "मजेदार"
+    },
+    {
+      "primary": {
+        "id": 4538,
+        "hi": "ज़िम्मेदारी",
+        "en": "responsibility, duty, obligation (n.)",
+        "freq": 7
+      },
+      "others": [
+        {
+          "id": 2103,
+          "hi": "जिम्मेदारी",
+          "en": "responsibility / accountability (n.)",
+          "freq": 33
+        }
+      ],
+      "norm": "जिम्मेदारी"
+    },
+    {
+      "primary": {
+        "id": 3440,
+        "hi": "नाराज़",
+        "en": "displeased, disappointed; annoyed; angry; cross (adj.)",
+        "freq": 12
+      },
+      "others": [
+        {
+          "id": 2150,
+          "hi": "नाराज",
+          "en": "angry / displeased / annoyed (n.)",
+          "freq": 31
+        }
+      ],
+      "norm": "नाराज"
+    },
+    {
+      "primary": {
+        "id": 5314,
+        "hi": "वज़न",
+        "en": "weight (n.)",
+        "freq": 4
+      },
+      "others": [
+        {
+          "id": 2238,
+          "hi": "वजन",
+          "en": "weight / burden / heaviness (n.)",
+          "freq": 28
+        }
+      ],
+      "norm": "वजन"
+    },
+    {
+      "primary": {
+        "id": 3053,
+        "hi": "क़िस्मत",
+        "en": "kismet / fate, destiny / division, partition (n.)",
+        "freq": 16
+      },
+      "others": [
+        {
+          "id": 2239,
+          "hi": "किस्मत",
+          "en": "fate / destiny / luck / fortune (n.)",
+          "freq": 28
+        }
+      ],
+      "norm": "किस्मत"
+    },
+    {
+      "primary": {
+        "id": 2252,
+        "hi": "फ़ाइल",
+        "en": "file (n.)",
+        "freq": 27
+      },
+      "others": [
+        {
+          "id": 3775,
+          "hi": "फाइल",
+          "en": "file / folder / dossier (n.)",
+          "freq": 11
+        }
+      ],
+      "norm": "फाइल"
+    },
+    {
+      "primary": {
+        "id": 4983,
+        "hi": "ज़िम्मेदार",
+        "en": "responsible (adj.)",
+        "freq": 5
+      },
+      "others": [
+        {
+          "id": 2267,
+          "hi": "जिम्मेदार",
+          "en": "responsible / accountable (n.)",
+          "freq": 27
+        }
+      ],
+      "norm": "जिम्मेदार"
+    },
+    {
+      "primary": {
+        "id": 3585,
+        "hi": "क़ब्र",
+        "en": "grave / tomb (n.)",
+        "freq": 12
+      },
+      "others": [
+        {
+          "id": 2270,
+          "hi": "कब्र",
+          "en": "grave / tomb / sepulchre (n.)",
+          "freq": 27
+        }
+      ],
+      "norm": "कब्र"
+    },
+    {
+      "primary": {
+        "id": 5311,
+        "hi": "आख़िरकार",
+        "en": "finally, at last (adv.)",
+        "freq": 4
+      },
+      "others": [
+        {
+          "id": 2306,
+          "hi": "आखिरकार",
+          "en": "after all / finally / ultimately (n.)",
+          "freq": 26
+        }
+      ],
+      "norm": "आखिरकार"
+    },
+    {
+      "primary": {
+        "id": 3025,
+        "hi": "तारीख़",
+        "en": "date (in relation to time) / date of a court appearance / history, chronicle (n.)",
+        "freq": 16
+      },
+      "others": [
+        {
+          "id": 2336,
+          "hi": "तारीख",
+          "en": "date / day (n.)",
+          "freq": 25
+        }
+      ],
+      "norm": "तारीख"
+    },
+    {
+      "primary": {
+        "id": 4444,
+        "hi": "ज़्यादातर",
+        "en": "principally, mostly (adv.)",
+        "freq": 7
+      },
+      "others": [
+        {
+          "id": 2338,
+          "hi": "ज्यादातर",
+          "en": "mostly / for the most part / largely (n.)",
+          "freq": 25
+        }
+      ],
+      "norm": "ज्यादातर"
+    },
+    {
+      "primary": {
+        "id": 4030,
+        "hi": "क़ब्ज़ा",
+        "en": "occupation; annexation, takeover / seizure (of property, assets, etc.) (n.)",
+        "freq": 9
+      },
+      "others": [
+        {
+          "id": 2463,
+          "hi": "कब्जा",
+          "en": "possession / occupation / hinge / capture (n.)",
+          "freq": 22
+        }
+      ],
+      "norm": "कब्जा"
+    },
+    {
+      "primary": {
+        "id": 5026,
+        "hi": "राज़",
+        "en": "secret (n.)",
+        "freq": 4
+      },
+      "others": [
+        {
+          "id": 2465,
+          "hi": "राज",
+          "en": "reign, rule / kingdom, medieval state; empire / country, state (n., name)",
+          "freq": 21
+        }
+      ],
+      "norm": "राज"
+    },
+    {
+      "primary": {
+        "id": 2583,
+        "hi": "सब्ज़ी",
+        "en": "vegetable / A prepared vegetable dish / verdure (n.)",
+        "freq": 20
+      },
+      "others": [
+        {
+          "id": 3637,
+          "hi": "सब्जी",
+          "en": "vegetable dish / vegetable (n.)",
+          "freq": 12
+        }
+      ],
+      "norm": "सब्जी"
+    },
+    {
+      "primary": {
+        "id": 4742,
+        "hi": "सफ़ाई",
+        "en": "cleanliness, hygiene / cleaning, washing / defense (n.)",
+        "freq": 6
+      },
+      "others": [
+        {
+          "id": 2741,
+          "hi": "सफाई",
+          "en": "cleaning / hygiene / clearance (n.)",
+          "freq": 19
+        }
+      ],
+      "norm": "सफाई"
+    },
+    {
+      "primary": {
+        "id": 5303,
+        "hi": "फ़ुटबॉल",
+        "en": "football, soccer (US) (n.)",
+        "freq": 4
+      },
+      "others": [
+        {
+          "id": 3159,
+          "hi": "फुटबॉल",
+          "en": "football / soccer (n.)",
+          "freq": 15
+        }
+      ],
+      "norm": "फुटबॉल"
+    },
+    {
+      "primary": {
+        "id": 5747,
+        "hi": "साज़िश",
+        "en": "conspiracy, scheme, plot (n.)",
+        "freq": 3
+      },
+      "others": [
+        {
+          "id": 3249,
+          "hi": "साजिश",
+          "en": "conspiracy / plot / intrigue (n.)",
+          "freq": 14
+        }
+      ],
+      "norm": "साजिश"
+    },
+    {
+      "primary": {
+        "id": 4574,
+        "hi": "सिफ़ारिश",
+        "en": "recommendation, endorsement (n.)",
+        "freq": 6
+      },
+      "others": [
+        {
+          "id": 3253,
+          "hi": "सिफारिश",
+          "en": "recommendation / endorsement (n.)",
+          "freq": 14
+        }
+      ],
+      "norm": "सिफारिश"
+    },
+    {
+      "primary": {
+        "id": 3332,
+        "hi": "मुफ़्त",
+        "en": "free of charge (adj.)",
+        "freq": 13
+      },
+      "others": [
+        {
+          "id": 3994,
+          "hi": "मुफ्त",
+          "en": "free / complimentary / gratis (n.)",
+          "freq": 10
+        }
+      ],
+      "norm": "मुफ्त"
+    },
+    {
+      "primary": {
+        "id": 5738,
+        "hi": "इस्तीफ़ा",
+        "en": "resignation (n.)",
+        "freq": 3
+      },
+      "others": [
+        {
+          "id": 3347,
+          "hi": "इस्तीफा",
+          "en": "resignation (n.)",
+          "freq": 13
+        }
+      ],
+      "norm": "इस्तीफा"
+    },
+    {
+      "primary": {
+        "id": 3391,
+        "hi": "गिरफ़्तारी",
+        "en": "arrest, capture, apprehension / imprisonment (n.)",
+        "freq": 12
+      },
+      "others": [
+        {
+          "id": 4152,
+          "hi": "गिरफ्तारी",
+          "en": "arrest / detention / apprehension (n.)",
+          "freq": 9
+        }
+      ],
+      "norm": "गिरफ्तारी"
+    },
+    {
+      "primary": {
+        "id": 5240,
+        "hi": "वफ़ादार",
+        "en": "loyal, truthful, trustworthy, faithful (adj.)",
+        "freq": 4
+      },
+      "others": [
+        {
+          "id": 3640,
+          "hi": "वफादार",
+          "en": "faithful / loyal (n.)",
+          "freq": 12
+        }
+      ],
+      "norm": "वफादार"
+    },
+    {
+      "primary": {
+        "id": 3802,
+        "hi": "बढ़ना",
+        "en": "to increase (in amount or intensity) / to grow, become larger (in size) / to rise (e.g. price, temperature) (v.)",
+        "freq": 10
+      },
+      "others": [
+        {
+          "id": 5798,
+          "hi": "बढना",
+          "en": "to grow / to advance / to increase (v.)",
+          "freq": 1
+        }
+      ],
+      "norm": "बढना"
+    },
+    {
+      "primary": {
+        "id": 4897,
+        "hi": "ढूंढ़",
+        "en": "seeking / search / stem (n., v.)",
+        "freq": 5
+      },
+      "others": [
+        {
+          "id": 3851,
+          "hi": "ढूंढ",
+          "en": "seeking / search / stem (n., v.)",
+          "freq": 10
+        }
+      ],
+      "norm": "ढूंढ"
+    },
+    {
+      "primary": {
+        "id": 3983,
+        "hi": "मुर्ग़ा",
+        "en": "chicken (n.)",
+        "freq": 10
+      },
+      "others": [
+        {
+          "id": 4154,
+          "hi": "मुर्गा",
+          "en": "rooster / cock (n.)",
+          "freq": 9
+        }
+      ],
+      "norm": "मुर्गा"
+    },
+    {
+      "primary": {
+        "id": 5419,
+        "hi": "गुफ़ा",
+        "en": "pronunciation spelling of गुफा (guphā) (n.)",
+        "freq": 3
+      },
+      "others": [
+        {
+          "id": 4055,
+          "hi": "गुफा",
+          "en": "cave, cavern (n.)",
+          "freq": 9
+        }
+      ],
+      "norm": "गुफा"
+    },
+    {
+      "primary": {
+        "id": 5736,
+        "hi": "कमज़ोरी",
+        "en": "weakness (n.)",
+        "freq": 3
+      },
+      "others": [
+        {
+          "id": 4136,
+          "hi": "कमजोरी",
+          "en": "weakness / feebleness / infirmity (n.)",
+          "freq": 9
+        }
+      ],
+      "norm": "कमजोरी"
+    },
+    {
+      "primary": {
+        "id": 5737,
+        "hi": "गुज़रना",
+        "en": "to pass, go by / to die (v.)",
+        "freq": 3
+      },
+      "others": [
+        {
+          "id": 5775,
+          "hi": "गुजरना",
+          "en": "to pass by / to elapse / to go through (v.)",
+          "freq": 2
+        }
+      ],
+      "norm": "गुजरना"
+    }
+  ],
+  "infl_adj_to_remove": [
+    {
+      "id": 264,
+      "hi": "छोटे",
+      "en": "small / young / short (m pl/obl) (n.)",
+      "freq": 254
+    },
+    {
+      "id": 333,
+      "hi": "नए",
+      "en": "new (m pl/obl) (n.)",
+      "freq": 196
+    },
+    {
+      "id": 460,
+      "hi": "पुराने",
+      "en": "old / ancient (m pl/obl) (n.)",
+      "freq": 164
+    },
+    {
+      "id": 547,
+      "hi": "अगले",
+      "en": "next / following (m pl/obl) (n.)",
+      "freq": 152
+    },
+    {
+      "id": 1681,
+      "hi": "बैठे",
+      "en": "sitting / seated (m pl/obl) (n.)",
+      "freq": 50
+    },
+    {
+      "id": 2266,
+      "hi": "काले",
+      "en": "black (m pl/obl) (n.)",
+      "freq": 27
+    },
+    {
+      "id": 2303,
+      "hi": "खुले",
+      "en": "open / clear / untied (m pl/obl) (n.)",
+      "freq": 26
+    },
+    {
+      "id": 2372,
+      "hi": "नीले",
+      "en": "blue (m pl/obl) (n.)",
+      "freq": 24
+    },
+    {
+      "id": 2811,
+      "hi": "सूखे",
+      "en": "dry / parched / drought (m pl/obl) (n.)",
+      "freq": 18
+    },
+    {
+      "id": 2875,
+      "hi": "भूखे",
+      "en": "hungry / starving (m pl/obl) (n.)",
+      "freq": 17
+    },
+    {
+      "id": 3245,
+      "hi": "हरे",
+      "en": "green (m pl/obl) (n.)",
+      "freq": 14
+    },
+    {
+      "id": 3641,
+      "hi": "बड़े",
+      "en": "big / large / elderly (m pl/obl) (n.)",
+      "freq": 12
+    },
+    {
+      "id": 3642,
+      "hi": "खड़े",
+      "en": "standing / upright (m pl/obl) (n.)",
+      "freq": 12
+    },
+    {
+      "id": 3644,
+      "hi": "अंधे",
+      "en": "blind (m pl/obl) (n.)",
+      "freq": 12
+    },
+    {
+      "id": 3986,
+      "hi": "गहरे",
+      "en": "deep / dark (m pl/obl) (n.)",
+      "freq": 10
+    },
+    {
+      "id": 4328,
+      "hi": "हल्के",
+      "en": "light / mild / pale (m pl/obl) (n.)",
+      "freq": 8
+    },
+    {
+      "id": 4333,
+      "hi": "ठंडे",
+      "en": "cold / chilled (m pl/obl) (n.)",
+      "freq": 8
+    }
+  ],
+  "oblique_verbs_to_remove": [
+    {
+      "id": 34,
+      "hi": "करने",
+      "en": "to do / doing (n.)",
+      "freq": 3084
+    },
+    {
+      "id": 145,
+      "hi": "जाने",
+      "en": "to go / knowing / who knows (n.)",
+      "freq": 645
+    },
+    {
+      "id": 166,
+      "hi": "होने",
+      "en": "being / happening / becoming (n.)",
+      "freq": 545
+    },
+    {
+      "id": 224,
+      "hi": "देखने",
+      "en": "seeing / looking / watching (n.)",
+      "freq": 334
+    },
+    {
+      "id": 247,
+      "hi": "लेने",
+      "en": "taking / receiving / accepting (n.)",
+      "freq": 288
+    },
+    {
+      "id": 266,
+      "hi": "आने",
+      "en": "coming / arriving / approaching (n.)",
+      "freq": 251
+    },
+    {
+      "id": 282,
+      "hi": "देने",
+      "en": "giving / granting / rendering (n.)",
+      "freq": 233
+    },
+    {
+      "id": 303,
+      "hi": "बनाने",
+      "en": "making / preparing / creating (n.)",
+      "freq": 213
+    },
+    {
+      "id": 323,
+      "hi": "मारने",
+      "en": "killing / beating / striking (n.)",
+      "freq": 201
+    },
+    {
+      "id": 356,
+      "hi": "पाने",
+      "en": "obtaining / getting / finding (n.)",
+      "freq": 185
+    },
+    {
+      "id": 502,
+      "hi": "खाने",
+      "en": "food / eating (n.)",
+      "freq": 160
+    },
+    {
+      "id": 3248,
+      "hi": "दिलाने",
+      "en": "getting / securing / providing (n.)",
+      "freq": 14
+    },
+    {
+      "id": 4342,
+      "hi": "कराने",
+      "en": "getting done / facilitating (n.)",
+      "freq": 8
+    }
+  ],
+  "polite_imperatives_to_remove": [
+    {
+      "id": 1457,
+      "hi": "कीजिए",
+      "en": "please do (polite) (n.)",
+      "freq": 65
+    },
+    {
+      "id": 1547,
+      "hi": "आइए",
+      "en": "please come (polite) (n.)",
+      "freq": 56
+    },
+    {
+      "id": 2459,
+      "hi": "देखिए",
+      "en": "please see / look (polite) (n.)",
+      "freq": 22
+    },
+    {
+      "id": 3246,
+      "hi": "जाइए",
+      "en": "please go (polite) (n.)",
+      "freq": 14
+    }
+  ],
+  "misspellings_to_remove": [
+    {
+      "id": 1614,
+      "hi": "माना",
+      "en": "misspelling of मानना (mānnā) (v.)",
+      "freq": 53
+    },
+    {
+      "id": 2072,
+      "hi": "क्यूं",
+      "en": "misspelling of क्यूँ (kyū̃) (adv.)",
+      "freq": 34
+    },
+    {
+      "id": 2311,
+      "hi": "शुरु",
+      "en": "misspelling of शुरू (śurū) (n.)",
+      "freq": 25
+    },
+    {
+      "id": 2651,
+      "hi": "हथ्यार",
+      "en": "misspelling of हथियार (hathiyār) (n.)",
+      "freq": 20
+    },
+    {
+      "id": 2998,
+      "hi": "भुगोल",
+      "en": "misspelling of भूगोल (bhūgol) (n.)",
+      "freq": 16
+    },
+    {
+      "id": 3167,
+      "hi": "श्रृंखला",
+      "en": "misspelling of शृंखला (śŕṅkhlā) (n.)",
+      "freq": 14
+    },
+    {
+      "id": 4081,
+      "hi": "हं",
+      "en": "misspelling of हाँ (hā̃) (part.)",
+      "freq": 9
+    }
+  ],
+  "foreign_to_remove": [
+    {
+      "id": 506,
+      "hi": "अमेरिका",
+      "en": "America, United States of America (a country in North America; in full, संयुक्त राज्य अमरीका (sãyukt rājya amrīkā) or संयुक्त राष्ट्र अमरीका (sãyukt rāṣṭra amrīkā)) / America, the Americas (a supercontinent consisting of North America, Central America and South America regarded as a whole; in full, the Americas) (name)",
+      "freq": 157
+    },
+    {
+      "id": 1868,
+      "hi": "लंदन",
+      "en": "London (the capital city of the United Kingdom; the capital city of England) / London (a city in Ontario, Canada) (name)",
+      "freq": 43
+    },
+    {
+      "id": 2017,
+      "hi": "नेपाल",
+      "en": "Nepal (a country in South Asia, located between China and India) (name)",
+      "freq": 35
+    },
+    {
+      "id": 2188,
+      "hi": "रोम",
+      "en": "Rome (a major city, the capital of Italy and the Italian region of Lazio, located on the Tiber River; the ancient capital of the Roman Empire) / Rome (a metropolitan city of Lazio, Italy) / Rome, Ancient Rome (an ancient empire based out of the city of Rome, covering vast territories in Europe, Asia and Africa; in full, Roman Empire) (name)",
+      "freq": 29
+    },
+    {
+      "id": 2212,
+      "hi": "चीन",
+      "en": "China (a cultural region and civilization in East Asia, occupying the region around the Yellow, Yangtze, and Pearl Rivers, taken as a whole under its various dynasties) / China (a large country in East Asia, occupying the region around the Yellow, Yangtze, and Pearl Rivers; the People's Republic of China, since 1949) (name)",
+      "freq": 28
+    },
+    {
+      "id": 2364,
+      "hi": "रूस",
+      "en": "Russia (a transcontinental country in Eastern Europe and North Asia) (name)",
+      "freq": 24
+    },
+    {
+      "id": 2591,
+      "hi": "लातिनी",
+      "en": "Latin (language) (name)",
+      "freq": 20
+    },
+    {
+      "id": 2724,
+      "hi": "एशिया",
+      "en": "Asia (the largest continent, located between Europe and the Pacific Ocean) / Asia (an ancient province of the Roman Empire in western Anatolia, existing between 133 BC (during the Roman Republic) and the 7th century AD) (name)",
+      "freq": 19
+    },
+    {
+      "id": 2832,
+      "hi": "यूरोप",
+      "en": "Europe (a continent located west of Asia and north of Africa) (name)",
+      "freq": 17
+    },
+    {
+      "id": 3406,
+      "hi": "मऊ",
+      "en": "Mau (a city and district of Azamgarh division, Uttar Pradesh, India) (name)",
+      "freq": 12
+    },
+    {
+      "id": 3499,
+      "hi": "इराक़",
+      "en": "Iraq (a country in West Asia in the Middle East) / Iraq (an expansive medieval region of West Asia, including not only the modern territories of Iraq but also large parts of western Iran (the so-called Persian Iraq)) (name)",
+      "freq": 12
+    },
+    {
+      "id": 3894,
+      "hi": "ग्रीक",
+      "en": "the Greek language (name)",
+      "freq": 10
+    },
+    {
+      "id": 3977,
+      "hi": "अंटार्कटिका",
+      "en": "Antarctica (the southernmost continent, south of the Southern Ocean, containing the South Pole) (name)",
+      "freq": 10
+    },
+    {
+      "id": 3978,
+      "hi": "उत्तर अमेरिका",
+      "en": "North America (the continent forming the northern part of the Americas) (name)",
+      "freq": 10
+    },
+    {
+      "id": 3979,
+      "hi": "दक्षिण अमेरिका",
+      "en": "South America (the continent forming the southern part of the Americas) (name)",
+      "freq": 10
+    },
+    {
+      "id": 4044,
+      "hi": "इटली",
+      "en": "Italy (a country in Southern Europe) (name)",
+      "freq": 9
+    },
+    {
+      "id": 4097,
+      "hi": "ब्रिटेन",
+      "en": "Britain (the United Kingdom, a kingdom and country in Northern Europe including the island of Great Britain as well as Northern Ireland on the northeastern portion of the island of Ireland) / Britain (great Britain, a large island (sometimes also including some of the surrounding smaller islands) off the north-west coast of Western Europe, made up of England, Scotland, and Wales; especially (but not exclusively) during antiquity) (name)",
+      "freq": 9
+    },
+    {
+      "id": 4215,
+      "hi": "फ्रांस",
+      "en": "France (a country located primarily in Western Europe) (name)",
+      "freq": 8
+    },
+    {
+      "id": 4300,
+      "hi": "मलेशिया",
+      "en": "Malaysia (a country in Southeast Asia) (name)",
+      "freq": 8
+    },
+    {
+      "id": 4382,
+      "hi": "जापान",
+      "en": "Japan (a country in East Asia) (name)",
+      "freq": 7
+    },
+    {
+      "id": 4529,
+      "hi": "कनाडा",
+      "en": "Canada (a country in North America) (name)",
+      "freq": 7
+    },
+    {
+      "id": 4845,
+      "hi": "स्पेन",
+      "en": "Spain (a country in Southern Europe, including most of the Iberian peninsula) (name)",
+      "freq": 5
+    },
+    {
+      "id": 4949,
+      "hi": "अफ़्रीका",
+      "en": "Africa (the continent south of Europe and between the Atlantic and Indian Oceans) (name)",
+      "freq": 5
+    },
+    {
+      "id": 5082,
+      "hi": "ईरान",
+      "en": "Iran (a country in West Asia) (name)",
+      "freq": 4
+    },
+    {
+      "id": 5154,
+      "hi": "डच",
+      "en": "Dutch (language) (name)",
+      "freq": 4
+    },
+    {
+      "id": 5247,
+      "hi": "काबुल",
+      "en": "Kabul (the capital city of Afghanistan) / Kabul (a river in Afghanistan and Pakistan) (name)",
+      "freq": 4
+    },
+    {
+      "id": 5500,
+      "hi": "अफगानिस्तान",
+      "en": "Afghanistan (a landlocked country between Central Asia and South Asia) (name)",
+      "freq": 3
+    },
+    {
+      "id": 5529,
+      "hi": "श्रीकाकुलम",
+      "en": "Srikakulam (a district of Andhra Pradesh, India) (name)",
+      "freq": 3
+    },
+    {
+      "id": 5534,
+      "hi": "इंग्लैंड",
+      "en": "England (a constituent country of the United Kingdom) (name)",
+      "freq": 3
+    },
+    {
+      "id": 5632,
+      "hi": "दुबई",
+      "en": "Dubai (an emirate of the United Arab Emirates) / Dubai (the capital city of Dubai emirate, United Arab Emirates) (name)",
+      "freq": 3
+    }
+  ],
+  "pos_fixes": {
+    "दाना": "seed / grain (n.)",
+    "ताना": "taunt / warp (in weaving) (n.)",
+    "बौना": "dwarf / stunted (adj., n.)",
+    "सांत्वना": "consolation / solace (n.)",
+    "अवहेलना": "disregard / defiance / neglect (n.)",
+    "सरगना": "ringleader / chieftain / kingpin (n.)",
+    "तिगुना": "threefold / triple (adj., num.)",
+    "चिकना": "smooth / slippery / glossy (adj.)",
+    "आराधना": "worship / adoration / prayer (n.)",
+    "संवेदना": "sensitivity / empathy / sensibility (n.)",
+    "गन्ना": "sugarcane (n.)",
+    "चना": "chickpea / gram (n.)",
+    "मैना": "myna (bird) (n.)",
+    "टखना": "ankle (n.)",
+    "ख़ज़ाना": "treasure / treasury (n.)",
+    "वायुसेना": "Air Force (n.)",
+    "पश्मीना": "pashmina (cashmere wool) (n.)",
+    "जनगणना": "census / population count (n.)",
+    "दुगना": "double / twofold (adj., num.)",
+    "सालाना": "annual / yearly (adj., adv.)",
+    "रोजाना": "daily / everyday / routinely (adv., adj.)",
+    "मर्दाना": "masculine / manly (adj.)",
+    "अवसंरचना": "infrastructure (n.)",
+    "तोपखाना": "artillery / armory (n.)",
+    "पैमाना": "scale / parameter / yardstick (n.)",
+    "मौलाना": "Maulana (Islamic scholar) (n.)",
+    "परिकल्पना": "hypothesis / conception (n.)",
+    "प्रस्तावना": "preface / preamble / introduction (n.)",
+    "वंदना": "worship / prayer (n.)",
+    "जनचेतना": "public awareness (n.)",
+    "उपासना": "worship / adoration (n.)",
+    "गर्जना": "roar / thundering (n.)",
+    "लेनादेना": "business / dealing / concern (n.)",
+    "पुनर्स्थापना": "restoration / reinstatement (n.)",
+    "छौंकना": "tempering / seasoning with hot oil/spices (n., v.)",
+    "राजपूताना": "Rajputana (prop.n.)",
+    "सम्भावना": "possibility / probability (n.)"
+  },
+  "residue_cleanups": {
+    "बड़ा दिन": "Christmas (n.)",
+    "न": "not, do not / negative particle / isn't it? (part., adv.)",
+    "परमाणु": "atom / smallest indivisible particle (n.)",
+    "सरस्वती": "Saraswati, goddess of knowledge and music (name)",
+    "मत्स्य": "fish (n.)",
+    "शुक्र": "Venus (planet) / Shukra / bright (n., name)"
+  }
+}
