@@ -5,9 +5,9 @@ A minimal, curated, frequency-ranked dictionary of standard Hindi base headwords
 ## Dataset Overview
 
 * **File**: [`vocab.json`](file:///home/zenhome/Projects/hindi-vocab/vocab.json)
-* **Total Entries**: 5,012 lemmatized single-word headwords
+* **Total Entries**: 4,895 lemmatized single-word headwords
 * **Order**: Ranked strictly from highest frequency to lowest frequency (implicit in sequential `id`)
-* **Indexing**: Continuous, sequential IDs (`1` to `5012`)
+* **Indexing**: Continuous, sequential IDs (`1` to `4895`)
 
 ## Schema
 
