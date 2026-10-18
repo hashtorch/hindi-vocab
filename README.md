@@ -118,8 +118,8 @@ $$\text{Worthiness Score} = S_{\text{inv}} + S_{\text{fidelity}} + S_{\text{dist
 
 | Tier | Rank Range (`id`) | Batches | Audit Status | Quality Highlights |
 |:---:|:---:|:---:|:---:|:---|
-| **Tier 1** | `1` – `600` | Batches 1, 2, 3 | **100% Verified** | Core pronouns, postpositions, auxiliaries, numbers, family terms. |
-| **Tier 2** | `601` – `1200` | Batches 4, 5, 6 | **100% Verified** | Kinship disambiguation (*मौसी*, *मामी*, *बुआ*, *साली*, *ननद*, *देवर*), culinary roots. |
+| **Tier 1** | `1` – `600` | Batches 1, 2, 3 | **100% Curated (A1 Complete)** | Batch 1: Foundational grammar, pronouns, auxiliaries (*कलम*, *खुशी*, *सहेली*, *विद्या*). Batch 2: Core action verbs (*नहाना*, *दिखना*), sensory nouns (*गिलास*), emotions (*खुश*, *दुख*). Batch 3: Paired actions (*उतारना*), distinct search verb (*तलाशना*), domestic food (*छाछ*), kinship completeness (*मौसा*). Tier 1 fully locked! |
+| **Tier 2** | `601` – `1200` | Batches 4, 5, 6 | **Verified (Ready for Batch 4)** | Kinship disambiguation (*मौसी*, *मामी*, *बुआ*, *साली*, *ननद*, *देवर*), culinary roots. |
 | **Tier 3** | `1201` – `1800` | Batches 7, 8, 9 | **100% Verified** | Trades, civic life, emotional states (*शक*, *बदला*, *क़िस्मत*, *वाद्ययंत्र*). |
 | **Tier 4** | `1801` – `2400` | Batches 10, 11, 12 | **100% Verified** | Administration, arts, flora (*पीपल*, *चमेली*, *गेंदा*, *सूरजमुखी*), sciences. |
 | **Tier 5** | `2401` – `3000` | Batches 13, 14, 15 | **100% Verified** | Civic institutions (*सचिवालय*, *विधानपरिषद*, *लोकायुक्त*, *नगरपालिका*, *राजपत्र*). |
