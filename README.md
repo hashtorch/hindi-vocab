@@ -5,9 +5,9 @@ A minimal, curated, frequency-ranked dictionary of standard Hindi base headwords
 ## Dataset Overview
 
 * **File**: [`vocab.json`](file:///home/zenhome/Projects/hindi-vocab/vocab.json)
-* **Total Entries**: 4,895 lemmatized single-word headwords
+* **Total Entries**: 4,800 lemmatized single-word headwords
 * **Order**: Ranked strictly from highest frequency to lowest frequency (implicit in sequential `id`)
-* **Indexing**: Continuous, sequential IDs (`1` to `4895`)
+* **Indexing**: Continuous, sequential IDs (`1` to `4800`)
 
 ## Schema
 
@@ -24,6 +24,28 @@ Each entry in [`vocab.json`](file:///home/zenhome/Projects/hindi-vocab/vocab.jso
 * `id` *(integer)*: 1-indexed rank ordered strictly from highest frequency to lowest frequency.
 * `hi` *(string)*: Standard Hindi headword in Devanagari script (pure single-word citation lemma).
 * `en` *(string)*: Concise single English translation word (no markers or parenthetical clutter).
+
+---
+
+## Curation & Quality Standards
+
+The dictionary is locked at a fixed corpus size of **exactly 4,800 words**. To maintain a high pedagogical standard, the dataset undergoes continuous word-by-word auditing using the following principles:
+
+1. **Strict Corpus Invariance ($4.8\text{k}$ Fixed)**:
+   The total entry count remains constant at 4,800. No entries are added or removed without a direct 1-for-1 replacement.
+
+2. **Word Worthiness & Replacement Criteria**:
+   Words are replaced *only when strictly required*. An existing entry is flagged for replacement only if it is:
+   * A direct English loanword with standard indigenous Hindi equivalents (e.g., *बुक $\to$ समाचारपत्र*, *कप $\to$ प्याला*).
+   * A bound grammatical prefix or suffix fragment that cannot stand alone (e.g., *बद-*, *महा-*).
+   * An inflected case form, oblique variation, or bare verb root (e.g., *तोड़ा $\to$ तोड़ना*, *चल $\to$ चलना*).
+   * An obscure foreign poetic fossil or non-lexical interjection (e.g., *ख़्वुरशेद*, *रूद*, *धत*).
+   * A phonological or spelling duplicate of an existing headword (e.g., *सिंघ vs सिंह*, *सैकंड vs सेकंड*).
+   
+   **Replacement Standard**: Replaced words are substituted exclusively with words that are **popular, frequently used, standard, and worthy to learn** (e.g., *अतिथि*, *सत्कार*, *यज्ञ*, *संतान*, *नवाचार*, *सद्भाव*, *स्वावलंबन*).
+
+3. **Rigorous Single-Word English Meaning Verification**:
+   Every translation is verified to ensure that the single English word conveys the exact, primary, and natural meaning of the Hindi lemma without ambiguity, eliminating dictionary parsing truncations (e.g., correcting *तुलना* from `"be"` $\to$ `"comparison"`, *मैल* from `"dead"` $\to$ `"dirt"`, *खिलना* from `"flower"` $\to$ `"bloom"`).
 
 ---
 
