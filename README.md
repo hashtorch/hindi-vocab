@@ -1,6 +1,6 @@
 # Hindi Vocabulary (`hindi-vocab`)
 
-A minimal, curated, frequency-ranked dictionary of standard Hindi base headwords designed for language learning and natural language applications.
+An efficient, curated, frequency-ranked dictionary of standard Hindi base headwords designed for language learning and natural language applications.
 
 ## Dataset Overview
 
