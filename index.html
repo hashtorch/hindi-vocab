@@ -1,60 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   <meta name="description" content="Hindi vocabulary list with English meanings and frequency ratings.">
   <title>Hindi Vocabulary</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f2a4a'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='central' font-family='sans-serif' font-weight='bold' font-size='36' fill='%23fb923c'%3E%E0%A4%85%3C/text%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000000'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='central' font-family='sans-serif' font-weight='bold' font-size='36' fill='%23ffffff'%3E%E0%A4%85%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     /* ---------- Design tokens ---------- */
+    /* Light is the default theme */
     :root {
-      --bg: #f3f5f8;
+      /* Palette: pure black, pure white, and one grey */
+      --bg: #ffffff;
       --surface: #ffffff;
-      --panel: #f7f9fc;
-      --ink: #0f1d2e;
-      --muted: #5b6b82;
-      --line: #e1e7ef;
-      --line-strong: #cfd8e3;
-      --head: #0f2a4a;
-      --head-ink: #f5f8fc;
-      --accent: #b45309;
-      --meter-track: #e6ebf2;
-      --meter-fill: #0f2a4a;
-      --zebra: #fafbfd;
-      --hover: #eef3fa;
-      --shadow: 0 1px 2px rgba(15, 29, 46, 0.06), 0 8px 24px rgba(15, 29, 46, 0.06);
+      --panel: #e5e5e5;
+      --ink: #000000;
+      --muted: #000000;
+      --line: #e5e5e5;
+      --line-strong: #000000;
+      --head: #000000;
+      --head-ink: #ffffff;
+      --accent: #000000;
+      --meter-track: #e5e5e5;
+      --meter-fill: #000000;
+      --zebra: #ffffff;
+      --hover: #e5e5e5;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 
       --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       --font-display: "Newsreader", Georgia, "Times New Roman", serif;
       --font-hi: "Noto Sans Devanagari", "Nirmala UI", "Mangal", "Lohit Devanagari", sans-serif;
 
+      /* Theme switch */
+      --switch-track: #e5e5e5;
+      --switch-border: #000000;
+      --switch-knob: #000000;
+      --switch-knob-shadow: rgba(0, 0, 0, 0.25);
+      --switch-icon: #ffffff;
+
       --radius: 14px;
       --title-h: 56px;
     }
 
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0a1119;
-        --surface: #111a26;
-        --panel: #152131;
-        --ink: #e7edf6;
-        --muted: #93a2b8;
-        --line: #1e2b3c;
-        --line-strong: #2a3a50;
-        --head: #070e18;
-        --head-ink: #e7edf6;
-        --accent: #fb923c;
-        --meter-track: #1e2b3c;
-        --meter-fill: #fb923c;
-        --zebra: #0e1620;
-        --hover: #172336;
-        --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px rgba(0, 0, 0, 0.35);
-      }
+    /* Dark theme, enabled only when the toggle sets data-theme="dark" */
+    :root[data-theme="dark"] {
+      --bg: #000000;
+      --surface: #000000;
+      --panel: #262626;
+      --ink: #ffffff;
+      --muted: #ffffff;
+      --line: #262626;
+      --line-strong: #ffffff;
+      --head: #000000;
+      --head-ink: #ffffff;
+      --accent: #ffffff;
+      --meter-track: #262626;
+      --meter-fill: #ffffff;
+      --zebra: #000000;
+      --hover: #262626;
+      --shadow: 0 1px 2px rgba(255, 255, 255, 0.06);
+
+      --switch-track: #262626;
+      --switch-border: #ffffff;
+      --switch-knob: #ffffff;
+      --switch-knob-shadow: rgba(255, 255, 255, 0.2);
+      --switch-icon: #000000;
     }
 
     /* ---------- Base ---------- */
@@ -120,11 +134,119 @@
       gap: 12px;
     }
 
+    .title-row .title-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
     .title-row .count {
       font-family: var(--font-ui);
       font-size: 13px;
       font-weight: 500;
       color: color-mix(in srgb, var(--head-ink) 65%, transparent);
+    }
+
+    /* ---------- Theme switch ---------- */
+    .theme-toggle {
+      appearance: none;
+      border: 0;
+      padding: 0;
+      background: none;
+      cursor: pointer;
+      border-radius: 999px;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .theme-toggle:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+
+    .switch-track {
+      --w: 64px;
+      --knob: 26px;
+      --gap: 3px;
+      --travel: calc(var(--w) - var(--knob) - var(--gap) * 2 - 2px);
+      position: relative;
+      display: block;
+      width: var(--w);
+      height: 32px;
+      border-radius: 999px;
+      background: var(--switch-track);
+      border: 1px solid var(--switch-border);
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12);
+      transition: background-color 0.4s ease, border-color 0.4s ease;
+    }
+
+    .theme-toggle:hover .switch-track {
+      border-color: var(--switch-knob);
+    }
+
+    .switch-knob {
+      position: absolute;
+      top: 50%;
+      left: var(--gap);
+      width: var(--knob);
+      height: var(--knob);
+      margin-top: calc(var(--knob) / -2);
+      border-radius: 50%;
+      background: var(--switch-knob);
+      box-shadow: 0 2px 8px var(--switch-knob-shadow);
+      display: grid;
+      place-items: center;
+      transform: translateX(0);
+      transition: transform 0.5s cubic-bezier(0.34, 1.4, 0.64, 1), background-color 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    /* Slide the knob to the right in dark mode */
+    :root[data-theme="dark"] .switch-knob {
+      transform: translateX(var(--travel));
+    }
+
+    .theme-toggle:active .switch-knob {
+      width: calc(var(--knob) + 4px);
+    }
+
+    /* Sun and moon swap inside the knob */
+    .switch-knob svg {
+      grid-area: 1 / 1;
+      width: 15px;
+      height: 15px;
+      fill: none;
+      stroke: var(--switch-icon);
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: opacity 0.3s ease, transform 0.5s cubic-bezier(0.34, 1.4, 0.64, 1);
+    }
+
+    .switch-knob .icon-moon {
+      opacity: 0;
+      transform: rotate(-60deg) scale(0.6);
+    }
+
+    .switch-knob .icon-sun {
+      opacity: 1;
+      transform: rotate(0deg) scale(1);
+    }
+
+    :root[data-theme="dark"] .switch-knob .icon-sun {
+      opacity: 0;
+      transform: rotate(90deg) scale(0.6);
+    }
+
+    :root[data-theme="dark"] .switch-knob .icon-moon {
+      opacity: 1;
+      transform: rotate(0deg) scale(1);
+    }
+
+    @media (max-width: 479px) {
+      .switch-track { --w: 56px; --knob: 22px; height: 28px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .switch-knob, .switch-knob svg, .switch-track { transition: none !important; }
     }
 
     /* Column header row: sticky beneath title bar (top set by JS) */
@@ -272,7 +394,17 @@
           <th colspan="4" scope="colgroup" id="mainTitle">
             <div class="title-inner">
               <span>Hindi Vocabulary</span>
-              <span class="count" id="vocabCount" aria-live="polite"></span>
+              <div class="title-meta">
+                <span class="count" id="vocabCount" aria-live="polite"></span>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+                  <span class="switch-track" aria-hidden="true">
+                    <span class="switch-knob">
+                      <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                      <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                    </span>
+                  </span>
+                </button>
+              </div>
             </div>
           </th>
         </tr>
@@ -303,7 +435,44 @@
       const titleEl = document.getElementById('mainTitle');
       const bodyEl = document.getElementById('vocabBody');
       const countEl = document.getElementById('vocabCount');
+      const themeToggleBtn = document.getElementById('themeToggle');
       const root = document.documentElement;
+
+      const STORAGE_KEY = 'hindi-vocab-theme';
+      const DEFAULT_THEME = 'light';
+
+      function getStoredTheme() {
+        try {
+          const stored = localStorage.getItem(STORAGE_KEY);
+          return stored === 'dark' || stored === 'light' ? stored : null;
+        } catch (_) {
+          return null;
+        }
+      }
+
+      function getEffectiveTheme() {
+        return root.getAttribute('data-theme') || getStoredTheme() || DEFAULT_THEME;
+      }
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        const isDark = theme === 'dark';
+        const label = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+        themeToggleBtn.setAttribute('aria-pressed', String(isDark));
+        themeToggleBtn.setAttribute('aria-label', label);
+        themeToggleBtn.setAttribute('title', label);
+      }
+
+      // Light by default; honor a previously chosen theme if one is saved
+      applyTheme(getStoredTheme() || DEFAULT_THEME);
+
+      themeToggleBtn.addEventListener('click', () => {
+        const next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+        try {
+          localStorage.setItem(STORAGE_KEY, next);
+        } catch (_) {}
+        applyTheme(next);
+      });
 
       function computeFreqRating(rank) {
         if (rank <= 1) return 5.0;
