@@ -4,7 +4,7 @@ Comprehensive integrity validator for vocab.json.
 
 Performs:
 1. ID continuity and sequential validation (1..N).
-2. Frequency ranking preservation (implied by continuous 1..N order).
+2. Frequency ranking preservation (monotonic ordering implied by 1..N index).
 3. Zero duplicate Hindi headwords.
 4. Schema validation: exact keys {"id", "hi", "en"}.
 5. Single-word English constraint (no spaces, pure single English token).
@@ -26,7 +26,7 @@ def validate_vocab(filepath='vocab.json'):
     expected_ids = list(range(1, total + 1))
     actual_ids = [x['id'] for x in data]
     assert actual_ids == expected_ids, "Error: IDs are not strictly sequential 1..N!"
-    print(f"✓ IDs: Perfectly sequential from 1 to {total} (Frequency-Ordered)")
+    print(f"✓ IDs: Perfectly sequential from 1 to {total} (Frequency-Ranked)")
 
     # 2. Duplicate checks
     words = [x['hi'].strip() for x in data]
