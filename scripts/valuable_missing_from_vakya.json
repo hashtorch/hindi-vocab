@@ -1,0 +1,2172 @@
+[
+  {
+    "hi": "करने",
+    "en": "to do / doing (v.)",
+    "sentence_freq": 73
+  },
+  {
+    "hi": "होने",
+    "en": "being / happening / becoming (n.)",
+    "sentence_freq": 57
+  },
+  {
+    "hi": "पुराने",
+    "en": "old / ancient (m pl/obl) (n.)",
+    "sentence_freq": 52
+  },
+  {
+    "hi": "जाने",
+    "en": "to go / knowing / who knows (v.)",
+    "sentence_freq": 50
+  },
+  {
+    "hi": "नए",
+    "en": "new (m pl/obl) (n.)",
+    "sentence_freq": 48
+  },
+  {
+    "hi": "बड़े",
+    "en": "big / large / elderly (m pl/obl) (adj.)",
+    "sentence_freq": 34
+  },
+  {
+    "hi": "कपड़े",
+    "en": "clothes / garments (n.)",
+    "sentence_freq": 33
+  },
+  {
+    "hi": "खाने",
+    "en": "food / eating (n.)",
+    "sentence_freq": 24
+  },
+  {
+    "hi": "छोटे",
+    "en": "small / young / short (m pl/obl) (n.)",
+    "sentence_freq": 24
+  },
+  {
+    "hi": "आने",
+    "en": "coming / arriving / approaching (n.)",
+    "sentence_freq": 24
+  },
+  {
+    "hi": "सूखे",
+    "en": "dry / parched / drought (m pl/obl) (n.)",
+    "sentence_freq": 22
+  },
+  {
+    "hi": "देने",
+    "en": "giving / granting / rendering (n.)",
+    "sentence_freq": 22
+  },
+  {
+    "hi": "जांच",
+    "en": "investigation / check / inquiry (n.)",
+    "sentence_freq": 21
+  },
+  {
+    "hi": "किले",
+    "en": "fort / fortress (obl) (n.)",
+    "sentence_freq": 21
+  },
+  {
+    "hi": "फारसी",
+    "en": "Persian (Farsi) (n.)",
+    "sentence_freq": 18
+  },
+  {
+    "hi": "बनाने",
+    "en": "making / preparing / creating (n.)",
+    "sentence_freq": 18
+  },
+  {
+    "hi": "बैठे",
+    "en": "sitting / seated (m pl/obl) (n.)",
+    "sentence_freq": 16
+  },
+  {
+    "hi": "घने",
+    "en": "dense / thick / close-knit (n.)",
+    "sentence_freq": 16
+  },
+  {
+    "hi": "रोगी",
+    "en": "patient / invalid / diseased (n.)",
+    "sentence_freq": 15
+  },
+  {
+    "hi": "मीठे",
+    "en": "sweet (m pl/obl) (n.)",
+    "sentence_freq": 15
+  },
+  {
+    "hi": "भूखे",
+    "en": "hungry / starving (m pl/obl) (n.)",
+    "sentence_freq": 15
+  },
+  {
+    "hi": "गहरे",
+    "en": "deep / dark (m pl/obl) (n.)",
+    "sentence_freq": 14
+  },
+  {
+    "hi": "चुकीं",
+    "en": "already done (feminine plural) (n.)",
+    "sentence_freq": 13
+  },
+  {
+    "hi": "काले",
+    "en": "black (m pl/obl) (n.)",
+    "sentence_freq": 12
+  },
+  {
+    "hi": "खड़े",
+    "en": "standing / upright (m pl/obl) (n.)",
+    "sentence_freq": 12
+  },
+  {
+    "hi": "कुएँ",
+    "en": "well (water well) (n.)",
+    "sentence_freq": 11
+  },
+  {
+    "hi": "दुख",
+    "en": "sorrow / grief / pain (n.)",
+    "sentence_freq": 11
+  },
+  {
+    "hi": "हरे",
+    "en": "green (m pl/obl) (n.)",
+    "sentence_freq": 11
+  },
+  {
+    "hi": "बूढ़े",
+    "en": "old / elderly (m.pl/obl) (adj.)",
+    "sentence_freq": 11
+  },
+  {
+    "hi": "नन्हे",
+    "en": "tiny / little (m pl/obl) (n.)",
+    "sentence_freq": 10
+  },
+  {
+    "hi": "आँकड़े",
+    "en": "data / statistics / figures (n.)",
+    "sentence_freq": 10
+  },
+  {
+    "hi": "पाने",
+    "en": "obtaining / getting / finding (n.)",
+    "sentence_freq": 10
+  },
+  {
+    "hi": "दौड़े",
+    "en": "ran (masculine plural) (n.)",
+    "sentence_freq": 10
+  },
+  {
+    "hi": "अँधेरा",
+    "en": "darkness / dark (n.)",
+    "sentence_freq": 10
+  },
+  {
+    "hi": "लेने",
+    "en": "taking / receiving / accepting (n.)",
+    "sentence_freq": 9
+  },
+  {
+    "hi": "ऊँचे",
+    "en": "tall / high / lofty (m.pl/obl) (n.)",
+    "sentence_freq": 9
+  },
+  {
+    "hi": "देखने",
+    "en": "seeing / looking / watching (n.)",
+    "sentence_freq": 9
+  },
+  {
+    "hi": "दर्रे",
+    "en": "mountain passes / ravines (n.)",
+    "sentence_freq": 9
+  },
+  {
+    "hi": "मिट",
+    "en": "be erased / vanish / disappear (n.)",
+    "sentence_freq": 9
+  },
+  {
+    "hi": "थैली",
+    "en": "bag / pouch / sack (n.)",
+    "sentence_freq": 9
+  },
+  {
+    "hi": "दमड़ी",
+    "en": "copper coin / farthing / penny (n.)",
+    "sentence_freq": 9
+  },
+  {
+    "hi": "सूर्योदय",
+    "en": "sunrise (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "दुर्गम",
+    "en": "inaccessible / difficult to traverse (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "कोमल",
+    "en": "soft / tender / delicate (adj.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "बरगद",
+    "en": "banyan tree (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "घोड़े",
+    "en": "horse / horses (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "पहलवान",
+    "en": "wrestler (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "नीले",
+    "en": "blue (m pl/obl) (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "लेख",
+    "en": "article / essay / writing (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "पड़ाव",
+    "en": "halt / stage / camp / resting place (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "वार्षिक",
+    "en": "annual / yearly (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "सुनहरे",
+    "en": "golden (m.pl/obl) (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "चाक",
+    "en": "potter's wheel / chalk (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "संगमरमर",
+    "en": "marble (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "बेसहारा",
+    "en": "destitute / helpless / shelterless (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "रंगीन",
+    "en": "colorful / dyed / bright (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "भड़क",
+    "en": "flare up / burst into anger (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "नाचे",
+    "en": "danced (masculine plural) (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "रोए",
+    "en": "cried / wept (masculine plural) (n.)",
+    "sentence_freq": 8
+  },
+  {
+    "hi": "व्यापारिक",
+    "en": "commercial / trade / business (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "छाँव",
+    "en": "shade / shadow (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "उठाए",
+    "en": "raised / lifted / taken (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "खिलौने",
+    "en": "toys (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "पांडुलिपि",
+    "en": "manuscript (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "खुले",
+    "en": "open / clear / untied (m pl/obl) (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "वास्तुकार",
+    "en": "architect (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "प्रतिदिन",
+    "en": "daily / everyday / per day (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "ठेकेदार",
+    "en": "contractor (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "ठंडे",
+    "en": "cold / chilled (m pl/obl) (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "संतान",
+    "en": "offspring / progeny / children (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "मुनीम",
+    "en": "accountant / clerk / bookkeeper (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "तपस्वी",
+    "en": "ascetic / hermit / anchorite (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "चूल्हे",
+    "en": "hearth / stove / chulha (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "मोहल्ले",
+    "en": "neighborhood / locality / quarter (n.)",
+    "sentence_freq": 7
+  },
+  {
+    "hi": "बालिका",
+    "en": "young girl / female child (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "आयोग",
+    "en": "commission / board (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "ठंडक",
+    "en": "coolness / relief (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "केले",
+    "en": "bananas (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "श्रृंखला",
+    "en": "chain / series (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "भक्त",
+    "en": "devotee / follower (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "दीये",
+    "en": "lamps / clay lamps (diyas) (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "रेलगाड़ी",
+    "en": "train / railway train (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "मांग",
+    "en": "demand / request / parting of hair (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "आँधी",
+    "en": "dust storm / gale / tempest (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "भट्टी",
+    "en": "furnace / kiln / hearth (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "बिन",
+    "en": "without / devoid of (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "उल्टे",
+    "en": "reverse / upside down / opposite (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "कोहरे",
+    "en": "fog / mist (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "अंकित",
+    "en": "marked / inscribed / stamped (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "शॉल",
+    "en": "shawl (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "पकवान",
+    "en": "cooked delicacy / rich dish (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "पाठशाला",
+    "en": "school / elementary academy (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "स्नेही",
+    "en": "affectionate / loving / friend (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "झरने",
+    "en": "waterfalls / springs / cascades (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "चरवाहे",
+    "en": "shepherds / cowherds (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "अन्न",
+    "en": "grain / food / cereal (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "हास्य",
+    "en": "humor / comedy / laughter (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "डांटे",
+    "en": "scolded / reprimanded (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "कोतवाल",
+    "en": "police officer / police chief / inspector (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "हँसे",
+    "en": "laughed (masculine) (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "खेले",
+    "en": "played (masculine plural) (n.)",
+    "sentence_freq": 6
+  },
+  {
+    "hi": "बुझ",
+    "en": "extinguish / go out (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "विधिवत",
+    "en": "duly / formally / systematically (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "पहर",
+    "en": "watch (period of 3 hours) / time (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "निगम",
+    "en": "corporation / municipal corporation (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "तारे",
+    "en": "stars (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "सभागार",
+    "en": "auditorium / hall (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "भेद",
+    "en": "difference / secret / distinction / schism (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "करघे",
+    "en": "handlooms / looms (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "औषधि",
+    "en": "medicine / drug / herb (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "मूसलाधार",
+    "en": "torrential / pouring heavily (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "अभियुक्त",
+    "en": "accused / defendant / indicted person (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "चमड़े",
+    "en": "leather / hide (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "पढ़ने",
+    "en": "reading / studying (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "खट्टे",
+    "en": "sour / tart (m pl/obl) (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "मूर्तिकार",
+    "en": "sculptor (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "मानसून",
+    "en": "monsoon (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "सजीव",
+    "en": "alive / lifelike / animated (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "संशोधन",
+    "en": "amendment / revision / correction (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "सुर",
+    "en": "musical note / pitch / melody / god (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "नक्शे",
+    "en": "maps / blueprints (pl/obl) (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "गुरुजी",
+    "en": "honored teacher / guru (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "भजन",
+    "en": "devotional song / hymn (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "विदेश",
+    "en": "foreign country / abroad (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "आलस्य",
+    "en": "laziness / sloth / indolence (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "सबने",
+    "en": "everyone / all (agentive) (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "बढ़ने",
+    "en": "growing / increasing / advancing (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "बहुमूल्य",
+    "en": "precious / invaluable / priceless (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "अखाड़े",
+    "en": "arenas / wrestling rings / akharas (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "नमूने",
+    "en": "specimens / samples / models (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "अलाव",
+    "en": "bonfire / campfire (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "पक्षपात",
+    "en": "bias / partiality / favoritism (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "मातृभूमि",
+    "en": "motherland / homeland (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "बर्फ़ीले",
+    "en": "snowy / icy / glacial (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "चौराहे",
+    "en": "crossroads / intersection / square (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "बच्ची",
+    "en": "little girl / baby girl (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "बुनाई",
+    "en": "weaving / knitting / texture (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "प्यासे",
+    "en": "thirsty (m.pl/obl) (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "कराने",
+    "en": "getting done / facilitating (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "घड़ा",
+    "en": "clay pitcher / earthen pot (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "विद्रोही",
+    "en": "rebel / insurgent / mutinous (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "करुण",
+    "en": "pathetic / touching / compassionate (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "असहनीय",
+    "en": "unbearable / intolerable / excruciating (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "दाने",
+    "en": "grains / seeds / pimples / beads (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "उपरोक्त",
+    "en": "above-mentioned / aforementioned (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "रोई",
+    "en": "cried / wept (feminine) (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "गागर",
+    "en": "pot / earthen pitcher / urn (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "मगरमच्छ",
+    "en": "crocodile / alligator (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "नाची",
+    "en": "danced (feminine) (n.)",
+    "sentence_freq": 5
+  },
+  {
+    "hi": "छा",
+    "en": "spread / loom / overcast (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "रेखांकित",
+    "en": "underlined / highlighted (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "वर्गीकरण",
+    "en": "classification / categorization (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "जीववैज्ञानिक",
+    "en": "biologist / biological (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "पर्वतीय",
+    "en": "mountainous / alpine / hilly (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "सांसारिक",
+    "en": "worldly / earthly / mundane (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "बूँद",
+    "en": "drop / droplet (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "दरबार",
+    "en": "royal court / assembly / darbar (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "नेताजी",
+    "en": "Netaji / leader / politician (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "महात्मा",
+    "en": "Mahatma / sage / holy person (adj.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "दूषित",
+    "en": "polluted / contaminated / tainted (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "शोभा",
+    "en": "splendour / grace / elegance (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "जोड़े",
+    "en": "couple / pair (obl) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "चाँदनी",
+    "en": "moonlight (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "श्रोताओं",
+    "en": "listeners / audience (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "हानिकारक",
+    "en": "harmful / detrimental / injurious (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "रुख",
+    "en": "direction / trend / countenance (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "संगति",
+    "en": "company / companionship / coherence (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "लेखिका",
+    "en": "writer / author / authoress (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "बढ़ाया",
+    "en": "extended / expanded / amplified (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "अतिथि",
+    "en": "guest / visitor (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "निर्भय",
+    "en": "fearless / undaunted (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "धोखे",
+    "en": "deception / deceit / fraud (obl) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "दुखी",
+    "en": "sad / sorrowful / distressed (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "उद्यान",
+    "en": "garden / park (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "दायित्व",
+    "en": "liability / responsibility / duty (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "तान",
+    "en": "musical phrase / tune / tension (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "ताड़",
+    "en": "palm tree / palm (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "छापा",
+    "en": "raid / print / stamp (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "चेहरे",
+    "en": "faces (pl/obl) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "लिपिक",
+    "en": "clerk / scribe (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "दफ़्तर",
+    "en": "office (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "समाजसेवी",
+    "en": "social worker / philanthropist (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "मिस्त्री",
+    "en": "mechanic / mason / technician (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "जुट",
+    "en": "gather / mobilize / get engaged (adj.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "साँझ",
+    "en": "evening / dusk / twilight (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "भोजनालय",
+    "en": "restaurant / dining hall / canteen / eatery (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "मसाले",
+    "en": "spices / seasonings (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "देखरेख",
+    "en": "supervision / care / surveillance (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "मंडी",
+    "en": "wholesale market / bazaar (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "वर्जित",
+    "en": "prohibited / forbidden / banned (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "होनहार",
+    "en": "promising / gifted / talented (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "होत",
+    "en": "happens / becomes (archaic/poetic) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "उमड़",
+    "en": "surging / swelling / welling up (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "प्रदर्शनी",
+    "en": "exhibition / expo / showcase (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "बढ़ाई",
+    "en": "increased / extended / expanded (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "मौसमी",
+    "en": "seasonal / sweet lime (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "मुकदमे",
+    "en": "lawsuits / trials / cases (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "काफिले",
+    "en": "caravans / convoys (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "नक्काशी",
+    "en": "carving / engraving / etching (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "हवाओं",
+    "en": "winds / breezes (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "छल",
+    "en": "deceit / fraud / trickery (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "सूत",
+    "en": "cotton yarn / thread (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "खिले",
+    "en": "bloomed / blossomed / smiled brightly (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "चीड़",
+    "en": "pine / pine tree (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "कुटिया",
+    "en": "hut / cottage / hermitage (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "बिरंगे",
+    "en": "variegated / colorful (rang-birange) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "निःस्वार्थ",
+    "en": "selfless / unselfish (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "फीस",
+    "en": "fee / tuition fee (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "अभिलेखागार",
+    "en": "archives / record office (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "असीम",
+    "en": "boundless / infinite / limitless (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "लोकतांत्रिक",
+    "en": "democratic (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "गूढ़",
+    "en": "profound / occult / esoteric / deep (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "पकड़ने",
+    "en": "catching / capturing / grasping (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "चौपाल",
+    "en": "village meeting place / chaupal (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "छायादार",
+    "en": "shady / shaded (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "संग्राम",
+    "en": "struggle / battle / conflict (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "मेधावी",
+    "en": "meritorious / gifted / brilliant (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "उस्ताद",
+    "en": "master / maestro / expert (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "चंदन",
+    "en": "sandalwood (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "दूरबीन",
+    "en": "telescope / binoculars (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "पहरा",
+    "en": "guard / watch / vigil (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "हवेली",
+    "en": "mansion / haveli / manor house (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "मंद",
+    "en": "slow / mild / gentle / dim (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "पालने",
+    "en": "cradle / rearing / nurturing (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "चैन",
+    "en": "peace / rest / comfort / chain (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "सीलन",
+    "en": "dampness / moisture / damp (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "कड़ाही",
+    "en": "wok / cauldron / kadhai (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "पर्वतारोही",
+    "en": "mountaineer / climber (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "प्रधानाचार्य",
+    "en": "principal / headmaster (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "मेजबान",
+    "en": "host (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "धुएँ",
+    "en": "smoke / fumes (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "वनरक्षक",
+    "en": "forest guard / forest ranger (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "मुंशी",
+    "en": "clerk / scribe / accountant (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "जुआरी",
+    "en": "gambler (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "हठी",
+    "en": "obstinate / stubborn / adamant (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "चौंक",
+    "en": "startled / surprised / alarmed (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "टूटने",
+    "en": "breaking / shattering (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "फटे",
+    "en": "torn / ripped / burst (m.pl/obl) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "देगा",
+    "en": "will give (m.sg) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "नंगे",
+    "en": "bare / naked (m.pl/obl) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "अनुपस्थिति",
+    "en": "absence / non-attendance (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "म्यान",
+    "en": "scabbard / sheath (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "आटे",
+    "en": "flour / dough (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "जताया",
+    "en": "expressed / conveyed / indicated (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "भैंस",
+    "en": "buffalo (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "बुलाई",
+    "en": "called / summoned / convened (feminine) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "पहुँचीं",
+    "en": "arrived / reached (feminine plural) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "खेलीं",
+    "en": "played (feminine plural) (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "रोएँ",
+    "en": "let us weep / body hair (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "खरीदार",
+    "en": "buyer / purchaser / customer (n.)",
+    "sentence_freq": 4
+  },
+  {
+    "hi": "जलाए",
+    "en": "lit / ignited (pl/hon) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दोगुनी",
+    "en": "double / twofold (feminine) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बुढ़ापे",
+    "en": "old age (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "गुफाओं",
+    "en": "caves (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "मालवाहक",
+    "en": "cargo / freight / freighter (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "नुकीले",
+    "en": "pointed / sharp / tapered (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "शोधकर्ताओं",
+    "en": "researchers (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "विशेषताओं",
+    "en": "characteristics / features / specialties (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "खंडन",
+    "en": "refutation / rebuttal / denial (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "रासायनिक",
+    "en": "chemical (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "जनहित",
+    "en": "public interest (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "साहित्यिक",
+    "en": "literary (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "मेथी",
+    "en": "fenugreek (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "मुख",
+    "en": "face / mouth (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "हथौड़े",
+    "en": "hammers / mallets (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "सत्कार",
+    "en": "hospitality / welcome / reception (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "सत्संग",
+    "en": "holy gathering / company of the good (adj.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "अभयारण्य",
+    "en": "sanctuary / wildlife reserve (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "हादसे",
+    "en": "accident / mishap (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "कोयले",
+    "en": "coal / charcoal (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "उपरांत",
+    "en": "after / subsequent to (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "जौहरी",
+    "en": "jeweler / connoisseur (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "रसायनज्ञ",
+    "en": "chemist (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बजने",
+    "en": "ringing / chiming / sounding (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "खंभे",
+    "en": "pillars / posts / columns (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "लंबित",
+    "en": "pending / unresolved (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "भड़काऊ",
+    "en": "inflammatory / provocative / inciting (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "गृहकार्य",
+    "en": "homework (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "ऋषि",
+    "en": "sage / seer / hermit (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "गन्ने",
+    "en": "sugarcane (obl) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "उसको",
+    "en": "to him / to her (v.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चरागाह",
+    "en": "pasture / meadow / grazing ground (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "नेकी",
+    "en": "virtue / goodness / piety (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "ठेले",
+    "en": "cart / handcart / wheelbarrow (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "अगले",
+    "en": "next / following (m pl/obl) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "परियोजनाओं",
+    "en": "projects (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पुरातत्व",
+    "en": "archaeology (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "शिलालेख",
+    "en": "rock edict / inscription on stone (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "प्रकाशक",
+    "en": "publisher (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "कोहरा",
+    "en": "fog / mist (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बेसन",
+    "en": "gram flour / chickpea flour (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "लगन",
+    "en": "devotion / zeal / perseverance (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पसीने",
+    "en": "sweat / perspiration (obl) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "विपत्ति",
+    "en": "adversity / calamity / distress (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "सीखो",
+    "en": "learn (imperative) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बिगाड़",
+    "en": "spoil / disfigure / friction (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "तने",
+    "en": "stem / trunk of a tree (obl) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "लिपि",
+    "en": "script / writing system (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "स्वरूप",
+    "en": "nature / form / character (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चौक",
+    "en": "square / crossroads / courtyard (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बांस",
+    "en": "bamboo (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "वाद",
+    "en": "discourse / doctrine / debate / -ism (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "मुग्ध",
+    "en": "fascinated / enchanted / captivated (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "सुदृढ़",
+    "en": "firm / robust / sturdy / reinforced (adj.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "ढाँचा",
+    "en": "framework / structure / skeleton (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चक्की",
+    "en": "grinding mill / quern (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "श्रद्धालु",
+    "en": "devotee / faithful / devout (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दीजिए",
+    "en": "please give (polite) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "कीचड़",
+    "en": "mud / sludge / mire (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बँट",
+    "en": "divided / distributed / shared (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "भिन्न",
+    "en": "different / distinct / fraction (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "प्रणाम",
+    "en": "salutation / respectful greeting / bow (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "डाक",
+    "en": "mail / post / postal delivery (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "शिष्य",
+    "en": "disciple / pupil / student (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "जागीर",
+    "en": "estate / feudal grant / fief (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "श्लोक",
+    "en": "Sanskrit verse / sloka / couplet (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "अवलोकन",
+    "en": "observation / inspection / viewing (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "उन्हीं",
+    "en": "those very / them only (obl) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "किरदार",
+    "en": "character / role (in drama/story) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "निर्देशन",
+    "en": "direction / guidance / supervision (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "मोहल्ला",
+    "en": "neighbourhood / locality / quarter (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बिगड़ने",
+    "en": "worsening / deteriorating / spoiling (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "फूट",
+    "en": "burst / discord / split (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बढ़ाने",
+    "en": "increasing / extending / advancing (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "भाषाएँ",
+    "en": "languages (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बरेली",
+    "en": "Bareilly (city) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "अडिग",
+    "en": "unwavering / resolute / firm (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "टिका",
+    "en": "resting on / perched / based on (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "संदूक",
+    "en": "box / trunk / chest (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चीकने",
+    "en": "smooth / glossy / oily (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बिरवान",
+    "en": "sapling / plant (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पात",
+    "en": "leaf / leaves (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दीया",
+    "en": "clay lamp / earthen oil lamp (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "संगम",
+    "en": "confluence / union / junction (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "भाषाओं",
+    "en": "languages (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "मिठास",
+    "en": "sweetness / pleasantness (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बढ़े",
+    "en": "grew / increased / stepped forward (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "सेनाएँ",
+    "en": "armies / armed forces (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "विद्या",
+    "en": "knowledge / learning / discipline / lore (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चलचित्र",
+    "en": "motion picture / cinema / movie (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "निंदनीय",
+    "en": "condemnable / reprehensible / blameworthy (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "तीर्थयात्री",
+    "en": "pilgrim (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "आश्रम",
+    "en": "hermitage / monastery / retreat (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "लोकगीत",
+    "en": "folk song / folklore (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "अदम्य",
+    "en": "indomitable / irrepressible / dauntless (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "संयम",
+    "en": "restraint / self-control / temperance (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "मखमली",
+    "en": "velvety / soft as velvet (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "स्वाभिमान",
+    "en": "self-respect / pride / dignity (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "जैविक",
+    "en": "organic / biological (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "अमूल्य",
+    "en": "priceless / invaluable (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "भ्रामक",
+    "en": "misleading / deceptive / fallacious (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "टुकड़ी",
+    "en": "contingent / detachment / platoon / squad (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बलुआ",
+    "en": "sandy / sandstone (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "सर्वोच्च",
+    "en": "highest / supreme / paramount (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "ऊन",
+    "en": "wool (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "सीमाओं",
+    "en": "borders / limits / frontiers (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "विषम",
+    "en": "odd / irregular / difficult / adverse (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "रसद",
+    "en": "provisions / rations / supplies (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "राजसी",
+    "en": "royal / princely / majestic (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दवाइयाँ",
+    "en": "medicines / drugs (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "निचले",
+    "en": "lower / subordinate / nether (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "कर्मी",
+    "en": "worker / employee / personnel (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दृष्टिहीन",
+    "en": "visually impaired / blind (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "घड़े",
+    "en": "earthen pots / pitchers (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "गश्त",
+    "en": "patrol / rounds (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दर्ज़िन",
+    "en": "seamstress / female tailor (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "खोजी",
+    "en": "searcher / explorer / inquisitive / sniffer (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बाड़े",
+    "en": "enclosure / pen / paddock / corral (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "प्रांगण",
+    "en": "courtyard / campus / quadrangle (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "राज्याभिषेक",
+    "en": "coronation / enthronement (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "उजाले",
+    "en": "light / daylight / brightness (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चोगा",
+    "en": "robe / gown / cloak (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "घूँघट",
+    "en": "veil (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "झूले",
+    "en": "swings / hammocks (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "गिद्ध",
+    "en": "vulture (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "श्यामपट्ट",
+    "en": "blackboard / chalkboard (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "धनुर्धर",
+    "en": "archer / bowman (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चुराने",
+    "en": "stealing / thieving (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "कविताओं",
+    "en": "poems / poetries (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "परीक्षक",
+    "en": "examiner / auditor / tester (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "जल्दबाज़ी",
+    "en": "haste / hurry / rashness (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पिल्ले",
+    "en": "puppies / pups (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "सरोवर",
+    "en": "lake / pond / pool (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बाज़",
+    "en": "hawk / falcon / eagle (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पिघल",
+    "en": "melt / thaw / dissolve (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "शोरगुल",
+    "en": "clamor / din / noise / hullabaloo (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "काफिला",
+    "en": "caravan / convoy (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बुढ़िया",
+    "en": "old woman / crone (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "खज़ांची",
+    "en": "treasurer / cashier (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पाठक",
+    "en": "reader (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "डंक",
+    "en": "sting / bite (of insect) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पूज्य",
+    "en": "venerable / revered / worshipful (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "ज़मींदार",
+    "en": "landlord / feudal landowner (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चिनगारी",
+    "en": "spark (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "झपट",
+    "en": "pounce / swoop / snatch (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "टुकड़े",
+    "en": "pieces / fragments / bits (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "काँप",
+    "en": "shiver / tremble / quake (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "उखाड़",
+    "en": "uproot / tear out / dislodge (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पाले",
+    "en": "frost / nurtured / reared (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "करे",
+    "en": "does / performs / may do (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "निःशुल्क",
+    "en": "free of charge / gratis / complimentary (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दिसंबर",
+    "en": "December (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "उमस",
+    "en": "sultriness / stifling humidity (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "ताज़े",
+    "en": "fresh (m.pl/obl) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बाधाओं",
+    "en": "obstacles / hurdles / barriers (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "सूक्ष्म",
+    "en": "microscopic / subtle / minute (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "शल्य",
+    "en": "surgical / surgery (shalya chikitsa) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "उर्वरक",
+    "en": "fertilizer / manure (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "काया",
+    "en": "body / physique / form (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "जलेबी",
+    "en": "jalebi (spiral sweet) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "उत्तराधिकार",
+    "en": "succession / inheritance / heritage (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पड़ेगी",
+    "en": "will have to (feminine) / will fall (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "गृहस्थी",
+    "en": "household / family life / domesticity (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "लड़ने",
+    "en": "fighting / quarreling (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पंजिका",
+    "en": "register / ledger / almanac (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "नारियल",
+    "en": "coconut (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "नापी",
+    "en": "measured (feminine) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चौंका",
+    "en": "startled / taken aback / surprised (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "अपनाया",
+    "en": "adopted / embraced / internalized (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "उपवन",
+    "en": "grove / garden / park (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "आगामी",
+    "en": "upcoming / forthcoming / impending (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "पाजामा",
+    "en": "pyjama / trousers (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दौड़ीं",
+    "en": "ran (feminine plural) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दौड़ी",
+    "en": "ran (feminine singular) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "रोईं",
+    "en": "cried / wept (feminine plural) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चने",
+    "en": "chickpeas / roasted grams (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "बट्टे",
+    "en": "discounts / allowances / weights (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चट्टे",
+    "en": "patches / rocks / slabs (chatte) (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "दावेदार",
+    "en": "claimant / contender / petitioner (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "चापलूस",
+    "en": "flatterer / sycophant (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "मिसाल",
+    "en": "example / precedent / paragon (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "गिराने",
+    "en": "dropping / knocking down / spilling (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "माथे",
+    "en": "forehead / brow (n.)",
+    "sentence_freq": 3
+  },
+  {
+    "hi": "धोई",
+    "en": "washed / cleansed (feminine) (n.)",
+    "sentence_freq": 3
+  }
+]
