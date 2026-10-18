@@ -129,80 +129,57 @@ $$\text{Worthiness Score} = S_{\text{inv}} + S_{\text{fidelity}} + S_{\text{dist
 
 ---
 
-## Frequency Curve & Score Mapping
+## Frequency Rating Mapping ($5.0 \to 1.0$)
 
-Raw frequency is deliberately omitted from [`vocab.json`](file:///home/zenhome/Projects/hindi-vocab/vocab.json) to keep the dataset minimal and clean. When approximate frequency counts or a normalized frequency score ($5.0 \to 0.1$) are needed, they can be computed on demand using the empirical corpus best-fit curves documented below.
+Raw frequency counts are omitted from [`vocab.json`](file:///home/zenhome/Projects/hindi-vocab/vocab.json) to keep the dataset minimal and clean. A normalized **Frequency Rating** from `5.0` (most frequent) down to `1.0` (least frequent) is computed directly from rank ($r \in [1, 4800]$).
 
-### 1. Empirical Corpus Reference Anchors
+### 1. Rating Curve & Anchors
 
-Historical corpus frequency data ($f_1 = 38,292 \to f_{5012} \approx 2$) follows a standard Zipfian distribution:
+The rating follows a **one-minus-exponential** curve ($k = 2.0$). High-frequency core words retain ratings near `5.0` with minimal decay, after which the rating steadily reduces down to `1.0` at the terminal 4,800th word:
 
-| Rank ($r$) | Empirical Freq ($f$) | Calibrated Score ($s$) |
-|:---:|:---:|:---:|
-| **1** | 38,292 | **5.0** |
-| **2** | 19,078 | **4.7** |
-| **5** | 12,526 | **4.5** |
-| **10** | 9,033 | **4.3** |
-| **25** | 4,263 | **4.0** |
-| **50** | 1,660 | **3.5** |
-| **100** | 783 | **3.2** |
-| **250** | 229 | **2.6** |
-| **500** | 149 | **2.4** |
-| **1,000** | 86 | **2.2** |
-| **2,000** | 27 | **1.6** |
-| **3,000** | 12 | **1.3** |
-| **4,000** | 6 | **0.9** |
-| **5,000** | 3 | **0.6** |
+| Rank ($r$) | Rating ($s$) | Vocabulary Register |
+|:---:|:---:|:---|
+| **1** | **5.0** | Essential grammar & core auxiliaries |
+| **100** | **5.0** | Everyday basic verbs & pronouns |
+| **500** | **4.9** | Daily household & conversation terms |
+| **1,000** | **4.7** | Common descriptive & civic vocabulary |
+| **2,000** | **4.2** | Intermediate working & cultural terms |
+| **3,000** | **3.4** | Formal, administrative & social terms |
+| **4,000** | **2.3** | Advanced literature & classical register |
+| **4,800** | **1.0** | High classical poetics & literary terms |
 
 ---
 
-### 2. Log-Log Polynomial Best-Fit Model
+### 2. Rating Formula
 
-For programmatic evaluation, a 4th-degree polynomial in log-log space provides an accurate fit ($R^2 = 0.9944$, $\text{MSE} = 0.012$):
+For rank $r \in [1, 4800]$ and normalized position $u = \frac{r - 1}{4799}$:
 
-$$\ln(\hat{f}) = a_4 x^4 + a_3 x^3 + a_2 x^2 + a_1 x + a_0$$
-
-where $x = \ln(r)$, and the fitted coefficients are:
-
-| Coefficient | Best-Fit Value |
-|:---:|:---:|
-| $a_4$ | `np.float64(-0.01312373)` |
-| $a_3$ | `np.float64(0.23288160)` |
-| $a_2$ | `np.float64(-1.39872769)` |
-| $a_1$ | `np.float64(2.14802785)` |
-| $a_0$ | `np.float64(9.40474351)` |
-
-$$\hat{f}(r) = \exp\left(\sum_{k=0}^{4} a_k (\ln r)^k\right)$$
-
----
-
-### 3. Frequency Score Formula ($5.0 \to 0.1$)
-
-To compute a normalized frequency score ranging from `5.0` (most frequent) down to `0.1` (least frequent) in discrete multiples of `0.1`:
-
-$$s(r) = \operatorname{round}\left(0.1 + \left(\frac{\ln(\hat{f}) - \ln(f_{\min})}{\ln(f_{\max}) - \ln(f_{\min})}\right) \times 4.9,\ 1\right)$$
-
-where $\ln(f_{\max}) = \ln(38292) \approx 10.553$ and $\ln(f_{\min}) = \ln(1) = 0$.
+$$s(r) = \operatorname{round}\left(1.0 + 4.0 \times \left(\frac{1 - e^{-2 (1 - u)}}{1 - e^{-2}}\right),\ 1\right)$$
 
 #### Python Implementation
 
 ```python
-import numpy as np
+import math
 
-COEFFS = [-0.01312373, 0.23288160, -1.39872769, 2.14802785, 9.40474351]
-LN_F_MAX = 10.55299  # ln(38292)
-LN_F_MIN = 0.0       # ln(1)
-
-def get_approx_freq(rank: int) -> float:
-    ln_r = np.log(float(rank))
-    ln_f = np.polyval(COEFFS, ln_r)
-    return float(np.exp(ln_f))
-
-def get_freq_score(rank: int) -> float:
-    ln_f = np.log(max(get_approx_freq(rank), 1.0))
-    raw = 0.1 + ((ln_f - LN_F_MIN) / (LN_F_MAX - LN_F_MIN)) * 4.9
-    return max(0.1, min(5.0, round(round(raw * 10) / 10, 1)))
+def get_freq_rating(rank: int, total_words: int = 4800, k: float = 2.0) -> float:
+    if rank <= 1:
+        return 5.0
+    if rank >= total_words:
+        return 1.0
+    u = (rank - 1) / (total_words - 1)
+    raw = 1.0 + 4.0 * (1.0 - math.exp(-k * (1.0 - u))) / (1.0 - math.exp(-k))
+    return max(1.0, min(5.0, round(round(raw * 10) / 10, 1)))
 ```
+
+---
+
+## Web Viewer
+
+A standalone, single-page web viewer is provided in [`index.html`](file:///home/zenhome/Projects/hindi-vocab/index.html):
+
+* **4-Column Layout**: `No`, `Hindi Word`, `English Word`, and `Freq. Rating`.
+* **Sticky Navigation**: Retains the merged title header (`Hindi Vocabulary`) and column headers as a fixed navbar while scrolling.
+* **Client-Side Rating**: Automatically evaluates and renders the frequency rating for all 4,800 entries loaded from [`vocab.json`](file:///home/zenhome/Projects/hindi-vocab/vocab.json).
 
 ---
 

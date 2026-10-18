@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Hindi vocabulary list with English meanings and frequency ratings.">
+  <title>Hindi Vocabulary</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f2a4a'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='central' font-family='sans-serif' font-weight='bold' font-size='36' fill='%23fb923c'%3E%E0%A4%85%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- Design tokens ---------- */
+    :root {
+      --bg: #f3f5f8;
+      --surface: #ffffff;
+      --panel: #f7f9fc;
+      --ink: #0f1d2e;
+      --muted: #5b6b82;
+      --line: #e1e7ef;
+      --line-strong: #cfd8e3;
+      --head: #0f2a4a;
+      --head-ink: #f5f8fc;
+      --accent: #b45309;
+      --meter-track: #e6ebf2;
+      --meter-fill: #0f2a4a;
+      --zebra: #fafbfd;
+      --hover: #eef3fa;
+      --shadow: 0 1px 2px rgba(15, 29, 46, 0.06), 0 8px 24px rgba(15, 29, 46, 0.06);
+
+      --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+      --font-hi: "Noto Sans Devanagari", "Nirmala UI", "Mangal", "Lohit Devanagari", sans-serif;
+
+      --radius: 14px;
+      --title-h: 56px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0a1119;
+        --surface: #111a26;
+        --panel: #152131;
+        --ink: #e7edf6;
+        --muted: #93a2b8;
+        --line: #1e2b3c;
+        --line-strong: #2a3a50;
+        --head: #070e18;
+        --head-ink: #e7edf6;
+        --accent: #fb923c;
+        --meter-track: #1e2b3c;
+        --meter-fill: #fb923c;
+        --zebra: #0e1620;
+        --hover: #172336;
+        --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px rgba(0, 0, 0, 0.35);
+      }
+    }
+
+    /* ---------- Base ---------- */
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-ui);
+      font-size: 15px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      padding: 0 0 max(32px, env(safe-area-inset-bottom));
+    }
+
+    .page {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px 12px 0;
+    }
+
+    @media (min-width: 640px) {
+      .page { padding: 40px 24px 0; }
+    }
+
+    /* ---------- Table card ---------- */
+    .vocab {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    /* Title bar: sticky at the top of the viewport */
+    .vocab .title-row th {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      height: var(--title-h);
+      padding: 0 20px;
+      background: var(--head);
+      color: var(--head-ink);
+      border-radius: calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0;
+      font-family: var(--font-display);
+      font-size: clamp(1.25rem, 1rem + 1vw, 1.5rem);
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      text-align: left;
+    }
+
+    .title-row .title-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .title-row .count {
+      font-family: var(--font-ui);
+      font-size: 13px;
+      font-weight: 500;
+      color: color-mix(in srgb, var(--head-ink) 65%, transparent);
+    }
+
+    /* Column header row: sticky beneath title bar (top set by JS) */
+    .vocab .header-row th {
+      position: sticky;
+      top: var(--title-h);
+      z-index: 10;
+      padding: 12px 16px;
+      background: var(--panel);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-align: left;
+      border-bottom: 1px solid var(--line-strong);
+      white-space: nowrap;
+    }
+
+    th.col-no { width: 12%; text-align: center; }
+    th.col-hi { width: 36%; }
+    th.col-en { width: 34%; }
+    th.col-rating { width: 18%; }
+
+    /* Body cells */
+    .vocab tbody td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: middle;
+      transition: background-color 0.15s ease;
+    }
+
+    .vocab tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .vocab tbody tr:nth-child(even) td {
+      background: var(--zebra);
+    }
+
+    .vocab tbody tr:hover td {
+      background: var(--hover);
+    }
+
+    td.cell-no {
+      text-align: center;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      font-size: 13px;
+    }
+
+    td.cell-hi {
+      font-family: var(--font-hi);
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 1.6;
+      overflow-wrap: anywhere;
+    }
+
+    td.cell-en {
+      color: var(--ink);
+      overflow-wrap: anywhere;
+    }
+
+    /* Frequency rating: number plus a small meter */
+    td.cell-rating {
+      text-align: left;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .rating-value {
+      min-width: 28px;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+      color: var(--ink);
+    }
+
+    .meter {
+      position: relative;
+      flex: 1;
+      max-width: 96px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--meter-track);
+      overflow: hidden;
+    }
+
+    .meter-fill {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: var(--v, 0%);
+      border-radius: inherit;
+      background: var(--meter-fill);
+    }
+
+    /* Status states */
+    .status-msg td {
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--muted);
+      border-bottom: none;
+    }
+
+    .status-msg.is-error td {
+      color: var(--accent);
+    }
+
+    /* ---------- Small screens: tighten, keep same structure ---------- */
+    @media (max-width: 479px) {
+      .vocab .title-row th { padding: 0 14px; }
+      .vocab .header-row th { padding: 10px 10px; font-size: 11px; }
+      .vocab tbody td { padding: 10px 10px; }
+      td.cell-hi { font-size: 16px; }
+      td.cell-no { font-size: 12px; }
+      .title-row .count { display: none; }
+      .meter { max-width: 56px; }
+      th.col-rating { width: 22%; }
+    }
+
+    /* ---------- Motion preferences ---------- */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="page">
+    <table class="vocab" aria-describedby="vocab-caption">
+      <thead>
+        <tr class="title-row">
+          <th colspan="4" scope="colgroup" id="mainTitle">
+            <div class="title-inner">
+              <span>Hindi Vocabulary</span>
+              <span class="count" id="vocabCount" aria-live="polite"></span>
+            </div>
+          </th>
+        </tr>
+        <tr class="header-row">
+          <th scope="col" class="col-no">No</th>
+          <th scope="col" class="col-hi">Hindi Word</th>
+          <th scope="col" class="col-en">English Word</th>
+          <th scope="col" class="col-rating">Freq. Rating</th>
+        </tr>
+      </thead>
+      <tbody id="vocabBody">
+        <tr class="status-msg">
+          <td colspan="4">Loading vocabulary…</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <script>
+    (() => {
+      'use strict';
+
+      // Frequency curve: one-minus-exponential model over rank 1..N
+      const N = 4800;
+      const K = 2.0;
+      const DENOM = 1.0 - Math.exp(-K);
+
+      const titleEl = document.getElementById('mainTitle');
+      const bodyEl = document.getElementById('vocabBody');
+      const countEl = document.getElementById('vocabCount');
+      const root = document.documentElement;
+
+      function computeFreqRating(rank) {
+        if (rank <= 1) return 5.0;
+        if (rank >= N) return 1.0;
+        const u = (rank - 1) / (N - 1);
+        const raw = 1.0 + 4.0 * (1.0 - Math.exp(-K * (1.0 - u))) / DENOM;
+        return Math.max(1.0, Math.min(5.0, Math.round(raw * 10) / 10));
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? '')
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      // Keep the column header pinned exactly under the title bar
+      function syncTitleHeight() {
+        const h = titleEl.parentElement.offsetHeight;
+        if (h) root.style.setProperty('--title-h', h + 'px');
+      }
+
+      if ('ResizeObserver' in window) {
+        new ResizeObserver(syncTitleHeight).observe(titleEl.parentElement);
+      } else {
+        window.addEventListener('resize', syncTitleHeight);
+      }
+      syncTitleHeight();
+
+      function renderRows(items) {
+        const html = items.map((item) => {
+          const rating = computeFreqRating(Number(item.id));
+          const pct = ((rating - 1) / 4) * 100;
+          return `
+            <tr>
+              <td class="cell-no">${escapeHtml(item.id)}</td>
+              <td class="cell-hi" lang="hi">${escapeHtml(item.hi)}</td>
+              <td class="cell-en">${escapeHtml(item.en)}</td>
+              <td class="cell-rating">
+                <div class="rating">
+                  <span class="rating-value">${rating.toFixed(1)}</span>
+                  <span class="meter" aria-hidden="true">
+                    <span class="meter-fill" style="--v: ${pct.toFixed(1)}%"></span>
+                  </span>
+                </div>
+              </td>
+            </tr>`;
+        }).join('');
+
+        bodyEl.innerHTML = html;
+        countEl.textContent = items.length + (items.length === 1 ? ' word' : ' words');
+        syncTitleHeight();
+      }
+
+      function renderStatus(message, isError) {
+        bodyEl.innerHTML = `
+          <tr class="status-msg${isError ? ' is-error' : ''}">
+            <td colspan="4">${escapeHtml(message)}</td>
+          </tr>`;
+      }
+
+      fetch('./vocab.json', { cache: 'no-cache' })
+        .then((res) => {
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return res.json();
+        })
+        .then((data) => {
+          if (!Array.isArray(data) || data.length === 0) {
+            renderStatus('No vocabulary entries found.', false);
+            return;
+          }
+          renderRows(data);
+        })
+        .catch((err) => {
+          renderStatus('Could not load vocabulary: ' + err.message, true);
+        });
+    })();
+  </script>
+</body>
+</html>
